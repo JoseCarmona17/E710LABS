@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700;800&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-dim": "#0a0a0a",
+                    "tertiary-fixed-dim": "#c6c6cf",
+                    "error-container": "#93000a",
+                    "primary-fixed-dim": "#ffb4a8",
+                    "surface-container-low": "#141414",
+                    "on-primary-fixed-variant": "#930100",
+                    "surface-tint": "#ffb4a8",
+                    "on-background": "#e5e2e1",
+                    "tertiary-container": "#71717a",
+                    "on-tertiary-fixed": "#1a1b22",
+                    "tertiary": "#c6c6cf",
+                    "background": "#0a0a0a",
+                    "surface-container-highest": "#262626",
+                    "primary-container": "#e60000",
+                    "on-surface-variant": "#e9bcb5",
+                    "surface-bright": "#393939",
+                    "surface": "#0a0a0a",
+                    "secondary-fixed": "#e4e2e4",
+                    "primary": "#ffb4a8",
+                    "tertiary-fixed": "#e2e1eb",
+                    "surface-container-high": "#1c1c1c",
+                    "inverse-primary": "#c00000",
+                    "on-secondary-container": "#b6b4b7",
+                    "secondary-fixed-dim": "#c8c6c8",
+                    "on-tertiary": "#2f3037",
+                    "on-primary": "#690000",
+                    "on-tertiary-container": "#f9f7ff",
+                    "on-secondary-fixed-variant": "#474649",
+                    "outline-variant": "#2c2c2c",
+                    "on-primary-container": "#fff7f5",
+                    "on-secondary-fixed": "#1b1b1d",
+                    "surface-container": "#141414",
+                    "on-surface": "#e5e2e1",
+                    "inverse-surface": "#e5e2e1",
+                    "on-secondary": "#303032",
+                    "outline": "#4a4a4a",
+                    "inverse-on-surface": "#313030",
+                    "on-error": "#690005",
+                    "secondary-container": "#474649",
+                    "surface-container-lowest": "#050505",
+                    "on-tertiary-fixed-variant": "#45464e",
+                    "surface-variant": "#353534",
+                    "on-primary-fixed": "#410000",
+                    "secondary": "#c8c6c8",
+                    "error": "#ffb4ab",
+                    "on-error-container": "#ffdad6",
+                    "primary-fixed": "#ffdad4"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0px",
+                    "lg": "0px",
+                    "xl": "0px",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Manrope"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #0a0a0a;
+            color: #e5e2e1;
+        }
+        .kinetic-border-bottom {
+            border-bottom: 2px solid transparent;
+        }
+        .kinetic-border-bottom:hover {
+            border-bottom: 2px solid #e60000;
+        }
+        .metric-monolith {
+            border-left: 2px solid #e60000;
+        }
+        .high-end-shadow {
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body class="font-body selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-12 h-20 bg-[#0a0a0a]/90 backdrop-blur-xl border-b border-white/5">
+<div class="text-2xl font-black tracking-tighter text-[#E60000]">710LABS</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-['Manrope'] uppercase tracking-tight text-xs font-bold text-[#E60000] border-b-2 border-[#E60000] pb-1" href="#">Services</a>
+<a class="font-['Manrope'] uppercase tracking-tight text-xs font-bold text-white/70 hover:text-white transition-colors" href="#">Culture</a>
+<a class="font-['Manrope'] uppercase tracking-tight text-xs font-bold text-white/70 hover:text-white transition-colors" href="#">Operations</a>
+<a class="font-['Manrope'] uppercase tracking-tight text-xs font-bold text-white/70 hover:text-white transition-colors" href="#">Clients</a>
+</div>
+<div class="flex items-center gap-6">
+<span class="material-symbols-outlined text-white/70 cursor-pointer hover:text-white transition-colors" data-icon="language">language</span>
+<button class="bg-primary-container text-on-primary-container px-6 py-2 font-bold uppercase text-[10px] tracking-widest hover:bg-white hover:text-black transition-all active:scale-95">Join the Elite</button>
+</div>
+</nav>
+<!-- SideNavBar REMOVED as per request -->
+<main class="w-full pt-20 min-h-screen">
+<!-- Hero Section -->
+<section class="relative h-[800px] flex items-center px-12 md:px-24 overflow-hidden bg-surface-dim">
+<div class="absolute inset-0 opacity-30">
+<img class="w-full h-full object-cover" data-alt="Abstract digital global network with flowing data lines and glowing nodes on a dark background representing high-speed connectivity" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIEz3XdyoDWO5Og_H6lAIw9GlLKutq3fVZAtlVdSkecPs0YvCSsPzLFWBaQkuMv3pF9OHp06PUiL1DGfRL8-rSsRyoNvm4q_LBx957Zk1rSr0J52SMVmBrBasFXDoHE0RyR87HPGTr_kTUMVpCnu5Vsz9i804Na-LoKFKzp0xhR2pcOjhjl_E-N0ThoLwwtRHg0Ee9rrdvQjFn2oWtmnUEt4s1R_xe-jFwFTXFMQz3789adWfCsh7Jcst-AakBdnjUl28eiJT5ZGK6"/>
+<div class="absolute inset-0 bg-gradient-to-r from-surface-dim via-surface-dim/70 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-5xl">
+<span class="font-label text-primary uppercase tracking-[0.4em] text-[10px] font-bold mb-6 block">Executive Vanguard Global Operations</span>
+<h1 class="font-headline text-7xl md:text-9xl font-black text-white leading-[0.9] tracking-tighter mb-8">
+                    Four Languages.<br/>
+<span class="text-transparent bg-clip-text bg-gradient-to-br from-primary to-primary-container">No Borders.</span>
+</h1>
+<p class="font-body text-xl text-on-surface-variant max-w-2xl leading-relaxed mb-4">
+                    Precision-engineered BPO solutions for the global financial elite. We bridge markets through cultural fluency and technical excellence in English, Spanish, French, and Portuguese.
+                </p>
+<div class="flex items-center gap-4 text-xs font-mono text-primary/60 uppercase tracking-widest mb-12">
+<span>English</span> <span class="text-white/20">/</span>
+<span>Spanish</span> <span class="text-white/20">/</span>
+<span>French</span> <span class="text-white/20">/</span>
+<span>Portuguese</span>
+</div>
+<div class="flex flex-wrap gap-6">
+<button class="bg-primary-container text-on-primary-container px-10 py-5 font-bold uppercase text-xs tracking-[0.2em] hover:bg-white hover:text-black transition-all">Deploy Infrastructure</button>
+<button class="border border-white/20 text-white px-10 py-5 font-bold uppercase text-xs tracking-[0.2em] hover:bg-white/5 transition-all">View Operations</button>
+</div>
+</div>
+</section>
+<!-- Service Categories -->
+<section class="grid grid-cols-1 md:grid-cols-3 gap-0 bg-surface-container-low border-y border-white/5">
+<div class="p-16 border-r border-white/5 hover:bg-surface-container-high transition-colors group">
+<div class="mb-10">
+<span class="material-symbols-outlined text-4xl text-primary" data-icon="support_agent">support_agent</span>
+</div>
+<h3 class="font-headline text-2xl font-bold text-white uppercase mb-4 tracking-tight">Customer Care</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-8 font-light">High-touch resolution protocols for premium clients. Multilingual support that feels native, ensuring absolute satisfaction across every touchpoint.</p>
+<div class="metric-monolith p-6 bg-surface-container-highest/50">
+<div class="text-[10px] uppercase font-bold text-white/40 mb-1">Average Response</div>
+<div class="text-3xl font-headline font-black text-on-surface">&lt;45 SEC</div>
+</div>
+</div>
+<div class="p-16 border-r border-white/5 hover:bg-surface-container-high transition-colors group">
+<div class="mb-10">
+<span class="material-symbols-outlined text-4xl text-primary" data-icon="trending_up">trending_up</span>
+</div>
+<h3 class="font-headline text-2xl font-bold text-white uppercase mb-4 tracking-tight">Sales</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-8 font-light">Aggressive market expansion through localized persuasion. Conversion-focused strategies designed for rapid global growth in competitive sectors.</p>
+<div class="metric-monolith p-6 bg-surface-container-highest/50">
+<div class="text-[10px] uppercase font-bold text-white/40 mb-1">Conversion Uplift</div>
+<div class="text-3xl font-headline font-black text-on-surface">+32.4%</div>
+</div>
+</div>
+<div class="p-16 hover:bg-surface-container-high transition-colors group">
+<div class="mb-10">
+<span class="material-symbols-outlined text-4xl text-primary" data-icon="account_tree">account_tree</span>
+</div>
+<h3 class="font-headline text-2xl font-bold text-white uppercase mb-4 tracking-tight">Backoffice</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-8 font-light">Surgical data precision and complex administrative workflows. We maintain the absolute integrity of your global operational framework.</p>
+<div class="metric-monolith p-6 bg-surface-container-highest/50">
+<div class="text-[10px] uppercase font-bold text-white/40 mb-1">Accuracy Rating</div>
+<div class="text-3xl font-headline font-black text-on-surface">99.99%</div>
+</div>
+</div>
+</section>
+<!-- Multilingual Pillars (Bento Grid) -->
+<section class="p-12 md:p-24 bg-surface-dim">
+<div class="mb-20 flex flex-col md:flex-row justify-between items-start md:items-end gap-8">
+<div>
+<span class="font-label text-[10px] tracking-[0.4em] text-primary font-bold uppercase mb-4 block">Operational Pillars</span>
+<h2 class="font-headline text-5xl md:text-6xl font-black text-white uppercase tracking-tighter">Native Mastery.<br/>Global Standards.</h2>
+</div>
+<p class="text-on-surface-variant max-w-xs text-sm uppercase tracking-widest font-medium border-l border-primary pl-6 py-2">Four Languages. One Unified Global Standard.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6 h-auto md:h-[800px]">
+<!-- English -->
+<div class="md:col-span-2 md:row-span-2 relative group overflow-hidden bg-surface-container-low high-end-shadow border border-white/5">
+<img class="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:scale-110 transition-transform duration-1000" data-alt="Modern high-rise corporate skyscraper" src="https://lh3.googleusercontent.com/aida-public/AB6AXuABBMu0LkGifU0oJUpo-o5tzvz3cVm0cNUBKwQY8kuBNZimaEq7cWh_ixetrsmq5YYrc-IG3ayWUTJKeqxp93ZeYDt0odu4nPLoY8prAI1tpnECHkFARXDvJuvCq5lI3Fo8Ls_TQ8n8uwY9V6OAAOCu08P36x3wHPOLPzCq_Ar6nSQtPBESRGUVvHo3V_FbwxgGveiDAukeSQ5VHE5aMuuz85SwVj8x21x3Mcg3EjkqB1xULFmt0YJMvpLf_pZnCxRTrfQw7vU6mgPp"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim via-transparent to-transparent"></div>
+<div class="relative z-10 p-12 h-full flex flex-col justify-end">
+<span class="text-primary font-black text-5xl mb-4">01</span>
+<h4 class="font-headline text-4xl font-bold text-white uppercase mb-4">English</h4>
+<p class="text-on-surface-variant max-w-sm mb-8 uppercase text-[10px] tracking-[0.3em] font-bold">Universal Business Protocol</p>
+<div class="flex gap-3">
+<span class="px-4 py-1.5 border border-white/10 text-[10px] font-bold uppercase tracking-widest bg-white/5">US Market</span>
+<span class="px-4 py-1.5 border border-white/10 text-[10px] font-bold uppercase tracking-widest bg-white/5">UK Standards</span>
+<span class="px-4 py-1.5 border border-white/10 text-[10px] font-bold uppercase tracking-widest bg-white/5">AU Coverage</span>
+</div>
+</div>
+</div>
+<!-- Spanish -->
+<div class="md:col-span-1 md:row-span-1 relative group overflow-hidden bg-surface-container-low border border-white/5">
+<div class="absolute inset-0 bg-primary/5 group-hover:bg-primary/10 transition-colors"></div>
+<div class="relative z-10 p-10">
+<span class="text-primary font-black text-3xl mb-4 block">02</span>
+<h4 class="font-headline text-2xl font-bold text-white uppercase mb-2">Spanish</h4>
+<p class="text-on-surface-variant text-[10px] uppercase tracking-widest font-bold mb-8">LATAM &amp; Spain Strategic Hubs</p>
+<ul class="text-[10px] font-bold uppercase text-white/50 space-y-3">
+<li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-primary"></span> Neutral Accent Protocols</li>
+<li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-primary"></span> Regional Customization</li>
+</ul>
+</div>
+</div>
+<!-- French -->
+<div class="md:col-span-1 md:row-span-1 relative group overflow-hidden bg-surface-container-high border border-white/5">
+<div class="absolute inset-0 bg-white/5 group-hover:bg-white/10 transition-colors"></div>
+<div class="relative z-10 p-10">
+<span class="text-primary font-black text-3xl mb-4 block">03</span>
+<h4 class="font-headline text-2xl font-bold text-white uppercase mb-2">French</h4>
+<p class="text-on-surface-variant text-[10px] uppercase tracking-widest font-bold mb-8">Quebec &amp; European Markets</p>
+<ul class="text-[10px] font-bold uppercase text-white/50 space-y-3">
+<li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-primary"></span> Canadian Compliance</li>
+<li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-primary"></span> Cultural Nuance Integration</li>
+</ul>
+</div>
+</div>
+<!-- Portuguese Brazil -->
+<div class="md:col-span-2 md:row-span-1 relative group overflow-hidden bg-surface-container-low border border-white/5">
+<img class="absolute inset-0 w-full h-full object-cover opacity-10 group-hover:scale-105 transition-transform duration-1000" data-alt="Dramatic view of Rio de Janeiro" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8F7YmxVTfDq1MJ0KX3UOJBt7o3prr2MrFN7s5jfdey4UaB1mi04rSGDsG9INmCDAevhL4EyjGIN5k6pii4ZwHz-rZFmWdMUslcXJCUVOMU5HQ_fPsequOxAOlaYjvopMsTM4bR7qxhRPjxrrwirrlnEt2I2SKxA6eyieG4JFE1FtgrJfEzPOaNcjR5Ro5El8IwzP1o9oijKBQMzatgMadKbd8ciNCPoKKmwttDG2fUr6yrdhP6ooJq6rhCf9Gb0jxJI6LlQjNbDKd"/>
+<div class="absolute inset-0 bg-gradient-to-r from-surface-dim via-surface-dim/60 to-transparent"></div>
+<div class="relative z-10 p-12 flex flex-col justify-center h-full">
+<span class="text-primary font-black text-3xl mb-4 block">04</span>
+<h4 class="font-headline text-4xl font-bold text-white uppercase mb-4">Portuguese</h4>
+<p class="text-on-surface-variant max-w-md text-sm mb-8 font-light">Dominating the Brazilian landscape with native proficiency and rapid-scale capabilities for financial tech giants.</p>
+<div class="flex items-center gap-8">
+<div class="metric-monolith pl-6">
+<span class="block text-[10px] text-white/40 font-bold uppercase tracking-widest mb-1">Market Reach</span>
+<span class="text-3xl font-black text-white">214M+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Industry Focus & Coverage -->
+<section class="grid grid-cols-1 lg:grid-cols-2">
+<!-- Fintech/Ecommerce Specialization -->
+<div class="p-16 md:p-24 bg-surface-container-lowest border-r border-white/5">
+<span class="font-label text-[10px] tracking-[0.4em] text-primary font-bold uppercase mb-6 block">Target Sectors</span>
+<h2 class="font-headline text-5xl font-black text-white uppercase tracking-tight mb-16">Industry Specialization</h2>
+<div class="space-y-16">
+<div class="flex flex-col md:flex-row gap-10 items-start">
+<div class="w-20 h-20 flex-shrink-0 bg-primary-container flex items-center justify-center high-end-shadow">
+<span class="material-symbols-outlined text-4xl text-white" data-icon="account_balance">account_balance</span>
+</div>
+<div>
+<h4 class="font-headline text-2xl font-bold text-white uppercase mb-4 tracking-tight">Fintech Operations</h4>
+<p class="text-on-surface-variant text-base leading-relaxed font-light mb-6">Securing global transactions and managing multi-currency compliance across four major economic zones. We provide PCI-DSS certified multilingual support for high-volume financial institutions.</p>
+<div class="flex gap-4">
+<span class="text-[10px] font-bold text-primary uppercase tracking-[0.2em] border-b border-primary/30 pb-1">AML/KYC Verified</span>
+<span class="text-[10px] font-bold text-primary uppercase tracking-[0.2em] border-b border-primary/30 pb-1">Regulatory Fluency</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col md:flex-row gap-10 items-start">
+<div class="w-20 h-20 flex-shrink-0 bg-primary-container flex items-center justify-center high-end-shadow">
+<span class="material-symbols-outlined text-4xl text-white" data-icon="shopping_cart">shopping_cart</span>
+</div>
+<div>
+<h4 class="font-headline text-2xl font-bold text-white uppercase mb-4 tracking-tight">Global Ecommerce</h4>
+<p class="text-on-surface-variant text-base leading-relaxed font-light mb-6">Scaling seasonal peaks with elastic multilingual teams. From complex order orchestration to logistics management and returns in native dialect, we optimize the entire customer lifecycle.</p>
+<div class="flex gap-4">
+<span class="text-[10px] font-bold text-primary uppercase tracking-[0.2em] border-b border-primary/30 pb-1">Conversion Optimized</span>
+<span class="text-[10px] font-bold text-primary uppercase tracking-[0.2em] border-b border-primary/30 pb-1">Omnichannel Mastery</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Map Visual Representation -->
+<div class="relative bg-surface-dim flex items-center justify-center overflow-hidden min-h-[600px]">
+<div class="absolute inset-0 opacity-15">
+<img class="w-full h-full object-cover" data-alt="Monochromatic dark world map" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzznzYXjxvjppBzLt7yevpu7i1m9v4JAMSX85yFukHg5iDDuWu1BDoXP2etcJWQdsD94wm2Fbr_N6lII6zXkUg6jrJQmdvdPhCkKwdBkQY3Wc9mpV2uYuzFI5V5RzUXX28_LbB15hqp02h0DswAlo4VdrfMXhC5reETe2i2nqKsGMCBSZyxzbRl4dDJcCAu4rKupe6jC5pdKADhaY7kvF_mHhuPKtQk3utmD2cN9wJSvI1zzM4qv9oZ0S8lRPheW6uWn-WrzNTZo8J"/>
+</div>
+<div class="relative z-10 text-center p-16 bg-[#111]/80 backdrop-blur-xl border border-white/10 max-w-lg high-end-shadow">
+<h3 class="font-headline text-3xl font-black text-white uppercase mb-10 tracking-tighter">Operational Presence</h3>
+<div class="space-y-6 text-left mb-12">
+<div class="flex justify-between items-center border-b border-white/5 pb-3">
+<span class="font-label text-xs uppercase tracking-widest text-white/50">North America</span>
+<span class="font-black text-xs text-primary uppercase tracking-widest">Active Tier 1</span>
+</div>
+<div class="flex justify-between items-center border-b border-white/5 pb-3">
+<span class="font-label text-xs uppercase tracking-widest text-white/50">Latin America</span>
+<span class="font-black text-xs text-primary uppercase tracking-widest">Active Tier 1</span>
+</div>
+<div class="flex justify-between items-center border-b border-white/5 pb-3">
+<span class="font-label text-xs uppercase tracking-widest text-white/50">Western Europe</span>
+<span class="font-black text-xs text-primary uppercase tracking-widest">Active Tier 1</span>
+</div>
+<div class="flex justify-between items-center border-b border-white/5 pb-3">
+<span class="font-label text-xs uppercase tracking-widest text-white/50">Brazil</span>
+<span class="font-black text-xs text-primary uppercase tracking-widest">Active Tier 1</span>
+</div>
+</div>
+<div class="mt-8">
+<p class="text-[10px] text-white/40 uppercase tracking-[0.4em] font-bold mb-2">Total Network Coverage</p>
+<p class="text-5xl font-headline font-black text-white">4 LANGUAGES</p>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-40 px-12 md:px-24 bg-primary-container text-on-primary-container relative overflow-hidden">
+<div class="absolute right-[-10%] top-[-20%] h-full w-1/2 opacity-10 pointer-events-none">
+<span class="text-[40rem] font-black leading-none select-none tracking-tighter">710</span>
+</div>
+<div class="relative z-10 max-w-4xl">
+<h2 class="font-headline text-6xl md:text-8xl font-black uppercase leading-[0.9] tracking-tighter mb-10">Scale Without<br/>Translation Lag.</h2>
+<p class="text-xl md:text-2xl font-medium mb-16 max-w-2xl leading-relaxed opacity-90">Integrate our multilingual command center into your financial operations in as little as 14 days. Precision, culture, and performance, unified for the elite.</p>
+<button class="bg-on-primary-container text-primary-container px-14 py-6 font-black uppercase text-sm tracking-[0.3em] hover:bg-white transition-all shadow-2xl">Request Technical Briefing</button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-24 px-12 md:px-24 grid grid-cols-1 md:grid-cols-4 gap-16 bg-[#050505] border-t border-white/5">
+<div class="col-span-1 md:col-span-1">
+<div class="text-[#E60000] font-bold text-3xl tracking-tighter mb-8">710LABS</div>
+<p class="font-['Inter'] text-[11px] tracking-[0.1em] uppercase text-white/40 leading-loose max-w-xs">
+                The Executive Vanguard. Precision BPO for the modern global economic landscape. Built for institutions that demand excellence.
+            </p>
+</div>
+<div>
+<h5 class="font-['Inter'] text-[11px] tracking-[0.2em] uppercase text-white font-bold mb-8">Platforms</h5>
+<div class="flex flex-col gap-4">
+<a class="text-white/40 hover:text-white transition-colors font-['Inter'] text-[11px] tracking-[0.1em] uppercase" href="#">Customer Care</a>
+<a class="text-white/40 hover:text-white transition-colors font-['Inter'] text-[11px] tracking-[0.1em] uppercase" href="#">Sales Enablement</a>
+<a class="text-white/40 hover:text-white transition-colors font-['Inter'] text-[11px] tracking-[0.1em] uppercase" href="#">Backoffice Systems</a>
+<a class="text-white/40 hover:text-white transition-colors font-['Inter'] text-[11px] tracking-[0.1em] uppercase" href="#">Compliance Hub</a>
+</div>
+</div>
+<div>
+<h5 class="font-['Inter'] text-[11px] tracking-[0.2em] uppercase text-white font-bold mb-8">Company</h5>
+<div class="flex flex-col gap-4">
+<a class="text-white/40 hover:text-white transition-colors font-['Inter'] text-[11px] tracking-[0.1em] uppercase" href="#">Privacy Policy</a>
+<a class="text-white/40 hover:text-white transition-colors font-['Inter'] text-[11px] tracking-[0.1em] uppercase" href="#">Terms of Service</a>
+<a class="text-white/40 hover:text-white transition-colors font-['Inter'] text-[11px] tracking-[0.1em] uppercase" href="#">Global Offices</a>
+<a class="text-white/40 hover:text-white transition-colors font-['Inter'] text-[11px] tracking-[0.1em] uppercase" href="#">Executive Careers</a>
+</div>
+</div>
+<div>
+<h5 class="font-['Inter'] text-[11px] tracking-[0.2em] uppercase text-white font-bold mb-8">Global HQ</h5>
+<p class="font-['Inter'] text-[11px] tracking-[0.1em] uppercase text-white/40 leading-loose">
+                710 Elite Tower<br/>
+                Financial District<br/>
+                London, United Kingdom
+            </p>
+</div>
+<div class="col-span-full border-t border-white/5 pt-16 flex flex-col md:flex-row justify-between items-center gap-8">
+<span class="font-['Inter'] text-[10px] tracking-[0.2em] uppercase text-white/30">© 2024 710LABS. THE EXECUTIVE VANGUARD. ALL RIGHTS RESERVED.</span>
+<div class="flex gap-8">
+<span class="material-symbols-outlined text-white/30 hover:text-white cursor-pointer transition-colors" data-icon="share">share</span>
+<span class="material-symbols-outlined text-white/30 hover:text-white cursor-pointer transition-colors" data-icon="public">public</span>
+<span class="material-symbols-outlined text-white/30 hover:text-white cursor-pointer transition-colors" data-icon="terminal">terminal</span>
+</div>
+</div>
+</footer>
+</body></html>

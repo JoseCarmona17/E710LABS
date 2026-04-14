@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface-dim: #131313;
+  --color-tertiary-fixed-dim: #c6c6cf;
+  --color-error-container: #93000a;
+  --color-primary-fixed-dim: #ffb4a8;
+  --color-surface-container-low: #1c1b1b;
+  --color-on-primary-fixed-variant: #930100;
+  --color-surface-tint: #ffb4a8;
+  --color-on-background: #e5e2e1;
+  --color-tertiary-container: #71717a;
+  --color-on-tertiary-fixed: #1a1b22;
+  --color-tertiary: #c6c6cf;
+  --color-background: #131313;
+  --color-surface-container-highest: #353534;
+  --color-primary-container: #e60000;
+  --color-on-surface-variant: #e9bcb5;
+  --color-surface-bright: #393939;
+  --color-surface: #131313;
+  --color-secondary-fixed: #e4e2e4;
+  --color-primary: #ffb4a8;
+  --color-tertiary-fixed: #e2e1eb;
+  --color-surface-container-high: #2a2a2a;
+  --color-inverse-primary: #c00000;
+  --color-on-secondary-container: #b6b4b7;
+  --color-secondary-fixed-dim: #c8c6c8;
+  --color-on-tertiary: #2f3037;
+  --color-on-primary: #690000;
+  --color-on-tertiary-container: #f9f7ff;
+  --color-on-secondary-fixed-variant: #474649;
+  --color-outline-variant: #5f3f3a;
+  --color-on-primary-container: #fff7f5;
+  --color-on-secondary-fixed: #1b1b1d;
+  --color-surface-container: #201f1f;
+  --color-on-surface: #e5e2e1;
+  --color-inverse-surface: #e5e2e1;
+  --color-on-secondary: #303032;
+  --color-outline: #b08781;
+  --color-inverse-on-surface: #313030;
+  --color-on-error: #690005;
+  --color-secondary-container: #474649;
+  --color-surface-container-lowest: #0e0e0e;
+  --color-on-tertiary-fixed-variant: #45464e;
+  --color-surface-variant: #353534;
+  --color-on-primary-fixed: #410000;
+  --color-secondary: #c8c6c8;
+  --color-error: #ffb4ab;
+  --color-on-error-container: #ffdad6;
+  --color-primary-fixed: #ffdad4;
+
+  --font-headline: "Manrope", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-label: "Inter", sans-serif;
+  
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-surface-dim);
+    color: var(--color-on-surface);
+  }
+}
+
+@layer utilities {
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  }
+}

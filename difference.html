@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>710LABS | Structural Difference</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700;800&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-dim": "#131313",
+                        "tertiary-fixed-dim": "#c6c6cf",
+                        "error-container": "#93000a",
+                        "primary-fixed-dim": "#ffb4a8",
+                        "surface-container-low": "#1c1b1b",
+                        "on-primary-fixed-variant": "#930100",
+                        "surface-tint": "#ffb4a8",
+                        "on-background": "#e5e2e1",
+                        "tertiary-container": "#71717a",
+                        "on-tertiary-fixed": "#1a1b22",
+                        "tertiary": "#c6c6cf",
+                        "background": "#131313",
+                        "surface-container-highest": "#353534",
+                        "primary-container": "#e60000",
+                        "on-surface-variant": "#e9bcb5",
+                        "surface-bright": "#393939",
+                        "surface": "#131313",
+                        "secondary-fixed": "#e4e2e4",
+                        "primary": "#ffb4a8",
+                        "tertiary-fixed": "#e2e1eb",
+                        "surface-container-high": "#2a2a2a",
+                        "inverse-primary": "#c00000",
+                        "on-secondary-container": "#b6b4b7",
+                        "secondary-fixed-dim": "#c8c6c8",
+                        "on-tertiary": "#2f3037",
+                        "on-primary": "#690000",
+                        "on-tertiary-container": "#f9f7ff",
+                        "on-secondary-fixed-variant": "#474649",
+                        "outline-variant": "#5f3f3a",
+                        "on-primary-container": "#fff7f5",
+                        "on-secondary-fixed": "#1b1b1d",
+                        "surface-container": "#201f1f",
+                        "on-surface": "#e5e2e1",
+                        "inverse-surface": "#e5e2e1",
+                        "on-secondary": "#303032",
+                        "outline": "#b08781",
+                        "inverse-on-surface": "#313030",
+                        "on-error": "#690005",
+                        "secondary-container": "#474649",
+                        "surface-container-lowest": "#0e0e0e",
+                        "on-tertiary-fixed-variant": "#45464e",
+                        "surface-variant": "#353534",
+                        "on-primary-fixed": "#410000",
+                        "secondary": "#c8c6c8",
+                        "error": "#ffb4ab",
+                        "on-error-container": "#ffdad6",
+                        "primary-fixed": "#ffdad4"
+                    },
+                    "fontFamily": {
+                        "headline": ["Manrope"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    },
+                    "borderRadius": {
+                        "none": "0px",
+                        "DEFAULT": "0px"
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3 { font-family: 'Manrope', sans-serif; }
+    </style>
+</head>
+<body class="bg-surface-dim text-on-surface selection:bg-primary-container selection:text-white overflow-x-hidden">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-12 h-20 bg-[#131313]/90 backdrop-blur-xl border-b-0">
+<div class="text-2xl font-black tracking-tighter text-[#E60000]">710LABS</div>
+<div class="hidden md:flex items-center space-x-8">
+<a class="font-['Manrope'] uppercase tracking-tight text-sm font-bold text-white/70 hover:text-white transition-colors" href="#">Services</a>
+<a class="font-['Manrope'] uppercase tracking-tight text-sm font-bold text-white/70 hover:text-white transition-colors" href="#">Culture</a>
+<a class="font-['Manrope'] uppercase tracking-tight text-sm font-bold text-white/70 hover:text-white transition-colors" href="#">Operations</a>
+<a class="font-['Manrope'] uppercase tracking-tight text-sm font-bold text-white/70 hover:text-white transition-colors" href="#">Clients</a>
+</div>
+<div class="flex items-center space-x-6">
+<span class="material-symbols-outlined text-white/70 cursor-pointer hover:text-primary-container">language</span>
+<button class="bg-primary-container text-on-primary-container px-6 py-2 font-['Manrope'] uppercase text-xs font-bold tracking-widest hover:bg-surface-bright transition-all duration-300">Join the Elite</button>
+</div>
+</nav>
+<main class="pt-20">
+<!-- Hero Section -->
+<section class="relative min-h-[716px] flex items-center px-12 py-24 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover opacity-20 grayscale brightness-50" data-alt="Modern architectural glass building at night with high contrast deep shadows and sharp red light reflections" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDp6Pe9g8urW3L0bR8CUxCH2A4tapsey-d30n68sleJcJF1Cbf6SmUQWxnfhnHdNRzoUw8-ii-dQRdfO-oqfnwUnvQT-EOpDurZAuEM-e7EgpNaP9HVgJfspvqa3sN0rIa_iVEMlOs6_ZfBWPSK--qHjAkZG5ggH46uDoxo-FhZhnsb4GF7wdc0Pp0Dj8us6zGakgDmr9Fl_RG-QrW2ReIa3GDERIKpW7lEsvgBsen8eLNFcOPgsf7xpN4l5dAd9cyBBjIJQF6GF-Z3"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface-dim via-transparent to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-4xl">
+<p class="font-label text-primary-container font-bold uppercase tracking-[0.3em] mb-4 text-sm">The Sovereign Architecturalist</p>
+<h1 class="text-6xl md:text-8xl font-extrabold tracking-tighter leading-tight mb-8">
+                Structural Difference,<br/>
+<span class="text-primary-container">Not Technical.</span>
+</h1>
+<p class="text-xl text-on-surface-variant font-light max-w-2xl leading-relaxed">
+                While traditional BPOs scale through repetition, we scale through engineering. Our hybrid infrastructure is built for those who demand absolute operational command and total transparency.
+            </p>
+</div>
+</section>
+<!-- The Comparison Grid -->
+<section class="px-12 py-24 bg-surface-container-lowest">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-px bg-outline-variant/20">
+<!-- Left Column: The Legacy Problem -->
+<div class="bg-surface-dim p-12 lg:pr-24">
+<h2 class="text-3xl font-bold uppercase tracking-tight mb-12 flex items-center gap-4">
+<span class="material-symbols-outlined text-on-surface-variant">history</span>
+                    Legacy BPO Model
+                </h2>
+<div class="space-y-12">
+<div class="relative pl-6">
+<div class="absolute left-0 top-0 bottom-0 w-px bg-surface-container-highest"></div>
+<h3 class="text-sm font-bold uppercase tracking-widest text-on-surface-variant mb-2">Operational Continuity</h3>
+<p class="text-on-secondary-container">Fragile infrastructure reliant on single-point locations. High downtime risk during localized disruptions.</p>
+</div>
+<div class="relative pl-6">
+<div class="absolute left-0 top-0 bottom-0 w-px bg-surface-container-highest"></div>
+<h3 class="text-sm font-bold uppercase tracking-widest text-on-surface-variant mb-2">Immediate Scalability</h3>
+<p class="text-on-secondary-container">Rigid recruitment cycles. Scaling up requires months of physical office expansion and local logistics.</p>
+</div>
+<div class="relative pl-6">
+<div class="absolute left-0 top-0 bottom-0 w-px bg-surface-container-highest"></div>
+<h3 class="text-sm font-bold uppercase tracking-widest text-on-surface-variant mb-2">Talent Control</h3>
+<p class="text-on-secondary-container">Standardized training with zero client oversight. You get "available" staff, not "curated" talent.</p>
+</div>
+</div>
+</div>
+<!-- Right Column: The 710LABS Solution -->
+<div class="bg-surface-container-low p-12 lg:pl-24 relative overflow-hidden">
+<div class="absolute top-0 right-0 p-8">
+<span class="text-8xl font-black text-primary-container/10">710</span>
+</div>
+<h2 class="text-3xl font-bold uppercase tracking-tight mb-12 flex items-center gap-4 text-primary-container">
+<span class="material-symbols-outlined">bolt</span>
+                    710LABS Hybrid Infrastructure
+                </h2>
+<div class="space-y-12">
+<!-- Metric Monolith 1 -->
+<div class="bg-surface-container-highest p-8 relative border-l-4 border-primary-container">
+<h3 class="text-sm font-bold uppercase tracking-widest text-primary-container mb-4">Superior Operational Command</h3>
+<div class="flex items-end gap-2 mb-2">
+<span class="text-4xl font-extrabold tracking-tighter">99.9%</span>
+<span class="text-xs uppercase font-bold text-on-surface-variant pb-1">Uptime SLA</span>
+</div>
+<p class="text-on-surface text-sm leading-relaxed">Our Hybrid model blends edge computing with decentralized talent hubs, ensuring you maintain absolute command over your operations globally.</p>
+</div>
+<!-- Metric Monolith 2 -->
+<div class="bg-surface-container-highest p-8 relative border-l-4 border-primary-container">
+<h3 class="text-sm font-bold uppercase tracking-widest text-primary-container mb-4">Immediate Scalability</h3>
+<div class="flex items-end gap-2 mb-2">
+<span class="text-4xl font-extrabold tracking-tighter">&lt; 72 HRS</span>
+<span class="text-xs uppercase font-bold text-on-surface-variant pb-1">Expansion Speed</span>
+</div>
+<p class="text-on-surface text-sm leading-relaxed">Kinetic architecture allows for instant squad deployment. We bridge physical and digital spaces to remove growth friction.</p>
+</div>
+<!-- Metric Monolith 3 -->
+<div class="bg-surface-container-highest p-8 relative border-l-4 border-primary-container">
+<h3 class="text-sm font-bold uppercase tracking-widest text-primary-container mb-4">Total Talent Transparency</h3>
+<div class="flex items-end gap-2 mb-2">
+<span class="text-4xl font-extrabold tracking-tighter">100%</span>
+<span class="text-xs uppercase font-bold text-on-surface-variant pb-1">Visibility</span>
+</div>
+<p class="text-on-surface text-sm leading-relaxed">Full architectural transparency. Monitor performance, vetting stages, and talent DNA through our integrated command interface.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- The "One single contract" Manifesto Section -->
+<section class="py-32 px-12 bg-surface-dim">
+<div class="max-w-6xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
+<div>
+<h2 class="text-5xl font-black tracking-tighter leading-none mb-8">
+                        One single contract.<br/>
+                        One quality standard.<br/>
+                        Four languages.
+                    </h2>
+<p class="text-on-surface-variant text-lg font-light leading-relaxed mb-12">
+                        We eliminate the complexity of multi-vendor management. 710LABS unifies your global operation under a single legal and operational framework, guaranteeing the same precision in every interaction.
+                    </p>
+<!-- Multilingual Flags -->
+<div class="grid grid-cols-4 gap-4">
+<div class="group relative aspect-square bg-surface-container-high flex flex-col items-center justify-center cursor-default hover:bg-primary-container transition-all duration-300">
+<span class="material-symbols-outlined text-3xl mb-2 text-primary-container group-hover:text-white transition-colors">language</span>
+<span class="font-label text-[10px] uppercase font-bold tracking-widest group-hover:text-white">EN</span>
+</div>
+<div class="group relative aspect-square bg-surface-container-high flex flex-col items-center justify-center cursor-default hover:bg-primary-container transition-all duration-300">
+<span class="material-symbols-outlined text-3xl mb-2 text-primary-container group-hover:text-white transition-colors">language</span>
+<span class="font-label text-[10px] uppercase font-bold tracking-widest group-hover:text-white">ES</span>
+</div>
+<div class="group relative aspect-square bg-surface-container-high flex flex-col items-center justify-center cursor-default hover:bg-primary-container transition-all duration-300">
+<span class="material-symbols-outlined text-3xl mb-2 text-primary-container group-hover:text-white transition-colors">language</span>
+<span class="font-label text-[10px] uppercase font-bold tracking-widest group-hover:text-white">FR</span>
+</div>
+<div class="group relative aspect-square bg-surface-container-high flex flex-col items-center justify-center cursor-default hover:bg-primary-container transition-all duration-300">
+<span class="material-symbols-outlined text-3xl mb-2 text-primary-container group-hover:text-white transition-colors">language</span>
+<span class="font-label text-[10px] uppercase font-bold tracking-widest group-hover:text-white">PT</span>
+</div>
+</div>
+</div>
+<!-- Infographic Element -->
+<div class="relative aspect-square">
+<div class="absolute inset-0 border-[20px] border-surface-container-high"></div>
+<div class="absolute inset-[40px] border-[1px] border-primary-container/30"></div>
+<div class="absolute inset-0 flex items-center justify-center">
+<img class="w-full h-full object-cover grayscale brightness-75 mix-blend-overlay" data-alt="Abstract data visualization with red glowing lines and high-precision technical interfaces on dark background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA88wFw6mktI0MyDzYKIqXPeu-EgiJkE5ND8lcjtKtz01dkSu4iJX1TjGIsjOQ23GTjIaVGQO5ffQY_HK9qzntUNTOiBx8YQZ46jTDrGXYUdzHEo6UA28swukGKfO8PUGBlBEQ4dJpiuH9d-JXiCffxqTGpucOhiKhOrlDBuVYqE_re0e506bkwwYv-pHVKvTD3mzj-UBwL8XMFni4Tg4BeD1s3jXS_U5TlY8i0ZVjqplYVy2uAju0U29fBQ2SpMqo-nhLVD054hzEk"/>
+<div class="absolute bg-surface-dim p-10 border border-primary-container/50 shadow-2xl">
+<span class="block text-6xl font-black text-primary-container mb-2">0.0%</span>
+<span class="block text-xs font-bold uppercase tracking-[0.2em]">Friction Rate</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- High-End Bento Data Visualization -->
+<section class="px-12 py-24 bg-surface-container-lowest">
+<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+<!-- Bento Item 1 -->
+<div class="md:col-span-2 bg-surface-container-low p-10 flex flex-col justify-between min-h-[300px]">
+<div>
+<span class="font-label text-primary-container text-[10px] font-bold uppercase tracking-widest mb-4 block">Structural Power</span>
+<h3 class="text-3xl font-bold uppercase tracking-tighter mb-4">Elite Force Density</h3>
+</div>
+<p class="text-on-surface-variant text-sm leading-relaxed">Our selection process rejects 98% of applicants. We only integrate high-performance talent that meets the Executive Vanguard standard, offering you full transparency into who represents your brand.</p>
+</div>
+<!-- Bento Item 2 -->
+<div class="bg-surface-container-high p-10 flex flex-col items-center justify-center text-center">
+<span class="text-5xl font-black text-white mb-2">4X</span>
+<span class="text-xs font-bold uppercase tracking-widest text-primary-container">Native Fluency</span>
+</div>
+<!-- Bento Item 3 -->
+<div class="bg-surface-container-high p-10 flex flex-col items-center justify-center text-center">
+<span class="text-5xl font-black text-white mb-2">24/7</span>
+<span class="text-xs font-bold uppercase tracking-widest text-primary-container">Command Center</span>
+</div>
+<!-- Bento Item 4 -->
+<div class="lg:col-span-2 bg-surface-bright p-10 flex flex-col justify-between">
+<h3 class="text-2xl font-bold uppercase tracking-tighter mb-6">Immediate Integration</h3>
+<div class="w-full bg-surface-dim h-2 mb-6">
+<div class="bg-primary-container h-full w-[85%]"></div>
+</div>
+<div class="flex justify-between text-[10px] font-bold uppercase tracking-widest">
+<span>Deployment Alpha</span>
+<span>85% Faster than Market</span>
+</div>
+</div>
+<!-- Bento Item 5 -->
+<div class="md:col-span-2 bg-surface-container-low p-10 relative overflow-hidden">
+<img class="absolute inset-0 w-full h-full object-cover opacity-30" data-alt="Satellite earth view with glowing data connections over dark continents, deep blue and red tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAd9otYnU0A86sL7QbvmQRfVbO7NUILT4SiGwiQJDv6CitDpbxGSyP_YPWxWvwjjCQV-C0le2P_AXaDE1mo8sZh9EAiNooexd0-DKr3pFuiGifv6DxzIfQcwOGjOtlW0uhEGAqSnXG8tHk5-IpXZYp4s6LT4wXl5BbJstp0LqVq-twBRH4UkEFDyInDpUm9HCqTJLCaDff0bQWsUT4mBhBWHIUQ1Zy2Xkjgu7FBg-JP5kh-FciPR6dOvFGqkPoywqbJinLqrJV8JwQ3"/>
+<div class="relative z-10">
+<h3 class="text-xl font-bold uppercase tracking-tighter mb-2">Global Operations Hub</h3>
+<p class="text-sm text-on-surface-variant">Centralized control, decentralized execution through our Hybrid Model.</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-16 px-12 grid grid-cols-1 md:grid-cols-4 gap-8 bg-[#0a0a0a]">
+<div>
+<div class="text-[#E60000] font-bold text-xl mb-6">710LABS</div>
+<p class="font-['Inter'] text-[10px] tracking-[0.05em] uppercase text-white/40 leading-relaxed">
+            THE EXECUTIVE VANGUARD. PRECISION BPO INFRASTRUCTURE FOR THE GLOBAL ELITE.
+        </p>
+</div>
+<div>
+<h4 class="font-label text-[10px] font-bold text-white uppercase tracking-widest mb-6">Platform</h4>
+<ul class="space-y-4">
+<li><a class="font-['Inter'] text-[10px] tracking-[0.05em] uppercase text-white/40 hover:text-[#E60000] transition-colors" href="#">Services</a></li>
+<li><a class="font-['Inter'] text-[10px] tracking-[0.05em] uppercase text-white/40 hover:text-[#E60000] transition-colors" href="#">Operations</a></li>
+<li><a class="font-['Inter'] text-[10px] tracking-[0.05em] uppercase text-white/40 hover:text-[#E60000] transition-colors" href="#">Culture</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label text-[10px] font-bold text-white uppercase tracking-widest mb-6">Legal</h4>
+<ul class="space-y-4">
+<li><a class="font-['Inter'] text-[10px] tracking-[0.05em] uppercase text-white/40 hover:text-[#E60000] transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="font-['Inter'] text-[10px] tracking-[0.05em] uppercase text-white/40 hover:text-[#E60000] transition-colors" href="#">Terms of Service</a></li>
+<li><a class="font-['Inter'] text-[10px] tracking-[0.05em] uppercase text-white/40 hover:text-[#E60000] transition-colors" href="#">Global Offices</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label text-[10px] font-bold text-white uppercase tracking-widest mb-6">Connect</h4>
+<ul class="space-y-4">
+<li><a class="font-['Inter'] text-[10px] tracking-[0.05em] uppercase text-white/40 hover:text-[#E60000] transition-colors" href="#">Careers</a></li>
+<li><a class="font-['Inter'] text-[10px] tracking-[0.05em] uppercase text-white/40 hover:text-[#E60000] transition-colors" href="#">LinkedIn</a></li>
+<li><a class="font-['Inter'] text-[10px] tracking-[0.05em] uppercase text-white/40 hover:text-[#E60000] transition-colors" href="#">Contact</a></li>
+</ul>
+</div>
+<div class="md:col-span-4 pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
+<span class="font-['Inter'] text-[10px] tracking-[0.05em] uppercase text-white/40">© 2024 710LABS. THE EXECUTIVE VANGUARD. ALL RIGHTS RESERVED.</span>
+<span class="font-['Inter'] text-[10px] tracking-[0.05em] uppercase text-white/40">EST. 2024 / PERFORMANCE DIVISION</span>
+</div>
+</footer>
+</body></html>
