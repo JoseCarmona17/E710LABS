@@ -36,9 +36,7 @@ export default function RootLayout({
         className={`${inter.variable} ${manrope.variable} font-body bg-surface-dim text-on-surface selection:bg-primary-container selection:text-on-primary-container min-h-screen flex flex-col antialiased`}
       >
         <TopNav />
-        <main className="flex-1">
-          {children}
-        </main>
+        <main className="flex-1">{children}</main>
         <Footer />
       </body>
     </html>
