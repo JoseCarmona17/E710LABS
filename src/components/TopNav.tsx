@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 
@@ -37,11 +38,17 @@ export default function TopNav() {
   return (
     <nav className="fixed top-0 w-full z-50 bg-[#131313]/90 backdrop-blur-xl border-b border-white/5">
       <div className="flex justify-between items-center px-6 md:px-12 h-20">
-        <Link
-          href="/"
-          className="text-2xl font-black tracking-tighter text-[#E60000]"
-        >
-          710LABS
+        <Link href="/" className="flex items-center group relative z-50">
+          <div className="relative h-16 w-40 sm:h-20 sm:w-52 transition-transform duration-500 ease-out group-hover:scale-[1.05] filter drop-shadow-[0_0_8px_rgba(230,0,0,0.2)]">
+            <Image
+              src="/logo.png"
+              alt="E710LABS ONE BPO"
+              fill
+              sizes="(max-width: 640px) 160px, 250px"
+              className="object-contain object-left scale-[1.4] md:scale-[1.5] transform origin-left"
+              priority
+            />
+          </div>
         </Link>
 
         {/* Desktop Menu */}
@@ -49,11 +56,10 @@ export default function TopNav() {
           {navLinks.map((link) => (
             <Link
               key={link.name}
-              className={`font-headline uppercase tracking-tight text-xs lg:text-sm font-bold transition-colors ${
-                isActive(link.href)
-                  ? "text-[#E60000] border-b-2 border-[#E60000] pb-1"
-                  : "text-white/70 hover:text-white"
-              }`}
+              className={`font-headline uppercase tracking-tight text-xs lg:text-sm font-bold transition-colors ${isActive(link.href)
+                ? "text-[#E60000] border-b-2 border-[#E60000] pb-1"
+                : "text-white/70 hover:text-white"
+                }`}
               href={link.href}
             >
               {link.name}
@@ -115,11 +121,10 @@ export default function TopNav() {
             <Link
               key={link.name}
               onClick={() => setIsOpen(false)}
-              className={`font-headline uppercase tracking-tight text-xl font-bold transition-colors w-fit ${
-                isActive(link.href)
-                  ? "text-[#E60000] border-b-2 border-[#E60000] pb-1"
-                  : "text-white/70 hover:text-white"
-              }`}
+              className={`font-headline uppercase tracking-tight text-xl font-bold transition-colors w-fit ${isActive(link.href)
+                ? "text-[#E60000] border-b-2 border-[#E60000] pb-1"
+                : "text-white/70 hover:text-white"
+                }`}
               href={link.href}
             >
               {link.name}
