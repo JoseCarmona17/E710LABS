@@ -27,6 +27,7 @@ export default function TopNav() {
     { name: "Culture", href: "/culture" },
     { name: "Operations", href: "/global-operations" },
     { name: "Clients", href: "/success" },
+    { name: "About Us", href: "/about" },
   ];
 
   // Helper function to check if the link is active
@@ -38,25 +39,25 @@ export default function TopNav() {
   return (
     <nav className="fixed top-0 w-full z-50 bg-[#131313]/90 backdrop-blur-xl border-b border-white/5">
       <div className="flex justify-between items-center px-6 md:px-12 h-20">
-        <Link href="/" className="flex items-center group relative z-50">
-          <div className="relative h-16 w-40 sm:h-20 sm:w-52 transition-transform duration-500 ease-out group-hover:scale-[1.05] filter drop-shadow-[0_0_8px_rgba(230,0,0,0.2)]">
+        <Link href="/" className="flex items-center group relative z-50 w-fit shrink-0">
+          <div className="relative h-16 w-28 sm:h-20 sm:w-32 transition-transform duration-500 ease-out group-hover:scale-[1.02] filter drop-shadow-[0_0_8px_rgba(230,0,0,0.2)]">
             <Image
               src="/logo.png"
               alt="E710LABS ONE BPO"
               fill
-              sizes="(max-width: 640px) 160px, 250px"
-              className="object-contain object-left scale-[1.4] md:scale-[1.5] transform origin-left"
+              sizes="(max-width: 640px) 150px, 200px"
+              className="object-contain object-left scale-[1.7] transform origin-left"
               priority
             />
           </div>
         </Link>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex gap-8 lg:gap-10">
+        <div className="hidden md:flex gap-4 lg:gap-8 xl:gap-10">
           {navLinks.map((link) => (
             <Link
               key={link.name}
-              className={`font-headline uppercase tracking-tight text-xs lg:text-sm font-bold transition-colors ${isActive(link.href)
+              className={`font-headline uppercase tracking-tight text-[11px] lg:text-xs xl:text-sm font-bold transition-colors whitespace-nowrap ${isActive(link.href)
                 ? "text-[#E60000] border-b-2 border-[#E60000] pb-1"
                 : "text-white/70 hover:text-white"
                 }`}
