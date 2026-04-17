@@ -22,11 +22,51 @@ export default function AboutUs() {
             Inside The Vanguard
           </div>
           <h1 className="font-headline font-extrabold text-4xl md:text-6xl lg:text-8xl leading-[0.9] tracking-tighter mb-8 uppercase italic">
-            About <span className="text-primary-container block not-italic">Us</span>
+            Direct Control. <span className="text-primary-container block not-italic">Unified Performance.</span>
           </h1>
           <p className="font-body text-xl text-on-surface-variant max-w-3xl leading-relaxed font-light mb-10">
-            We are driven by excellence, discipline, and uncompromising standards. Meet the architects behind 710LABS, the operators who set the benchmark for global execution.
+            E710Labs is a multicountry BPO specialized in customer operations, sales operations, and back-office execution for companies operating across the Americas. Our hybrid operating model combines physical delivery centers and a proprietary distributed workforce, eliminating geographic dependency while maintaining strict quality, compliance, and performance standards.
           </p>
+        </div>
+      </section>
+
+      {/* Culture & Philosophy Section */}
+      <section className="px-6 md:px-12 lg:px-24 py-20 md:py-32 bg-surface-dim">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+            <div>
+              <div className="inline-block border border-primary-container text-primary-container px-3 py-1 font-label text-[10px] tracking-[0.2em] uppercase mb-6">
+                Operational Philosophy
+              </div>
+              <h2 className="font-headline font-extrabold text-4xl md:text-5xl uppercase tracking-tighter mb-8 italic">
+                Performance <span className="text-primary-container">Not Improvisation.</span>
+              </h2>
+              <p className="font-body text-lg text-on-surface-variant leading-relaxed mb-6">
+                Our culture is built on structure, accountability, and performance. E710Labs prioritizes professional execution, measurable outcomes, and disciplined operations.
+              </p>
+              <p className="font-body text-lg text-on-surface-variant leading-relaxed mb-8">
+                Teams are trained to operate under standardized procedures while adapting to the cultural and linguistic context of each market. We believe operational excellence is achieved through process clarity, talent accountability, and continuous improvement.
+              </p>
+              <div className="grid grid-cols-2 gap-8">
+                <div>
+                  <h4 className="font-headline font-bold uppercase text-primary-container mb-2 text-sm tracking-widest">Structure</h4>
+                  <p className="text-sm text-on-surface-variant opacity-70">Standardized procedures for global consistency.</p>
+                </div>
+                <div>
+                  <h4 className="font-headline font-bold uppercase text-primary-container mb-2 text-sm tracking-widest">Accountability</h4>
+                  <p className="text-sm text-on-surface-variant opacity-70">Measurable outcomes and talent discipline.</p>
+                </div>
+              </div>
+            </div>
+            <div className="relative aspect-video bg-surface-container overflow-hidden border border-white/5">
+              <img 
+                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2670&auto=format&fit=crop" 
+                alt="Architecture" 
+                className="w-full h-full object-cover grayscale opacity-50"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-surface-dim to-transparent"></div>
+            </div>
+          </div>
         </div>
       </section>
 

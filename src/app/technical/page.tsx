@@ -8,9 +8,7 @@ export default function Technical() {
             <span className="text-primary-container">the Perimeter</span>
           </h1>
           <p className="mt-8 font-body text-lg text-on-surface-variant max-w-2xl font-light leading-relaxed">
-            Initiating high-performance infrastructure audit. Authenticate your
-            technical specifications below to authorize an Elite BPO briefing
-            session.
+            E710Labs operates with clear service-level agreements, real-time operational reporting, data protection protocols, and compliance-conscious execution. Predictable performance and transparent metrics, regardless of geography.
           </p>
         </div>
         <div className="lg:col-span-4 flex flex-col items-end gap-4">
@@ -30,17 +28,17 @@ export default function Technical() {
         <div className="lg:col-span-1 flex flex-col gap-8">
           <div className="bg-surface-container-low p-8 border-l-2 border-primary-container">
             <h3 className="font-label uppercase tracking-[0.15em] text-[10px] text-primary-container font-bold mb-6">
-              Global Headquarters
+              Strategic Headquarters
             </h3>
             <p className="font-headline text-2xl font-bold text-white mb-2">
-              London, UK
+              Pan-Americas Operations
             </p>
             <p className="font-body text-xs text-on-surface/60 leading-relaxed uppercase tracking-wider">
-              The Shard, Level 24
+              United States & Canada
               <br />
-              32 London Bridge St
+              Latin America
               <br />
-              SE1 9SG
+              Unified Operational Hub
             </p>
           </div>
           {/* Map Visualization Block */}
@@ -158,7 +156,7 @@ export default function Technical() {
                       type="checkbox"
                     />
                     <span className="font-label text-[9px] uppercase tracking-widest">
-                      North America
+                      United States
                     </span>
                   </label>
                   <label className="flex items-center gap-3 bg-surface-container-low px-4 py-2 cursor-pointer hover:bg-surface-bright transition-colors border border-white/5">
@@ -167,7 +165,7 @@ export default function Technical() {
                       type="checkbox"
                     />
                     <span className="font-label text-[9px] uppercase tracking-widest">
-                      EMEA Central
+                      Canada
                     </span>
                   </label>
                   <label className="flex items-center gap-3 bg-surface-container-low px-4 py-2 cursor-pointer hover:bg-surface-bright transition-colors border border-white/5">
@@ -176,16 +174,7 @@ export default function Technical() {
                       type="checkbox"
                     />
                     <span className="font-label text-[9px] uppercase tracking-widest">
-                      Asia Pacific
-                    </span>
-                  </label>
-                  <label className="flex items-center gap-3 bg-surface-container-low px-4 py-2 cursor-pointer hover:bg-surface-bright transition-colors border border-white/5">
-                    <input
-                      className="w-3 h-3 rounded-none border-outline-variant bg-transparent text-primary-container focus:ring-0"
-                      type="checkbox"
-                    />
-                    <span className="font-label text-[9px] uppercase tracking-widest">
-                      LATAM Nodes
+                      Latin America
                     </span>
                   </label>
                 </div>

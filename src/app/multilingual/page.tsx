@@ -245,7 +245,7 @@ export default function Multilingual() {
       <section className="grid grid-cols-1 lg:grid-cols-2">
         <div className="p-8 md:p-16 md:p-8 md:p-24 bg-surface-container-lowest border-r border-white/5">
           <span className="font-label text-[10px] tracking-[0.4em] text-primary font-bold uppercase mb-6 block">
-            Target Sectors
+            Who We Serve
           </span>
           <h2 className="font-headline text-3xl md:text-5xl font-black text-white uppercase tracking-tight mb-16">
             Industry Specialization
@@ -254,25 +254,22 @@ export default function Multilingual() {
             <div className="flex flex-col md:flex-row gap-10 items-start">
               <div className="w-20 h-20 flex-shrink-0 bg-primary-container flex items-center justify-center shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)]">
                 <span className="material-symbols-outlined text-4xl text-white">
-                  account_balance
+                  payments
                 </span>
               </div>
               <div>
                 <h4 className="font-headline text-2xl font-bold text-white uppercase mb-4 tracking-tight">
-                  Fintech Operations
+                  Fintech & Financial Services
                 </h4>
                 <p className="text-on-surface-variant text-base leading-relaxed font-light mb-6">
-                  Securing global transactions and managing multi-currency
-                  compliance across four major economic zones. We provide
-                  PCI-DSS certified multilingual support for high-volume
-                  financial institutions.
+                  Compliant, scalable multilingual operations for fintech giants requiring absolute precision and data protection protocols across the Americas.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <span className="text-[10px] font-bold text-primary uppercase tracking-[0.2em] border-b border-primary/30 pb-1 hover:border-primary-container transition">
-                    AML/KYC Verified
+                    Compliance Conscious
                   </span>
                   <span className="text-[10px] font-bold text-primary uppercase tracking-[0.2em] border-b border-primary/30 pb-1 hover:border-primary-container transition">
-                    Regulatory Fluency
+                    Scalable Operations
                   </span>
                 </div>
               </div>
@@ -280,27 +277,39 @@ export default function Multilingual() {
             <div className="flex flex-col md:flex-row gap-10 items-start">
               <div className="w-20 h-20 flex-shrink-0 bg-primary-container flex items-center justify-center shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)]">
                 <span className="material-symbols-outlined text-4xl text-white">
-                  shopping_cart
+                  shopping_bag
                 </span>
               </div>
               <div>
                 <h4 className="font-headline text-2xl font-bold text-white uppercase mb-4 tracking-tight">
-                  Global Ecommerce
+                  E-commerce & Digital Brands
                 </h4>
                 <p className="text-on-surface-variant text-base leading-relaxed font-light mb-6">
-                  Scaling seasonal peaks with elastic multilingual teams. From
-                  complex order orchestration to logistics management and
-                  returns in native dialect, we optimize the entire customer
-                  lifecycle.
+                  Scaling customer experience across borders for digital-native brands. We manage the complexity of multiregional retail with native fluency.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <span className="text-[10px] font-bold text-primary uppercase tracking-[0.2em] border-b border-primary/30 pb-1 hover:border-primary-container transition">
-                    Conversion Optimized
+                    Cross-Border CX
                   </span>
                   <span className="text-[10px] font-bold text-primary uppercase tracking-[0.2em] border-b border-primary/30 pb-1 hover:border-primary-container transition">
-                    Omnichannel Mastery
+                    Regional Native
                   </span>
                 </div>
+              </div>
+            </div>
+            <div className="flex flex-col md:flex-row gap-10 items-start">
+              <div className="w-20 h-20 flex-shrink-0 bg-primary-container flex items-center justify-center shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)]">
+                <span className="material-symbols-outlined text-4xl text-white">
+                  language
+                </span>
+              </div>
+              <div>
+                <h4 className="font-headline text-2xl font-bold text-white uppercase mb-4 tracking-tight">
+                  Multiregional SaaS & Platforms
+                </h4>
+                <p className="text-on-surface-variant text-base leading-relaxed font-light mb-6">
+                  Supporting companies serving customers in multiple countries, languages, and time zones across the Americas under one unified framework.
+                </p>
               </div>
             </div>
           </div>

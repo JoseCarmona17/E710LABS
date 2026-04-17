@@ -25,12 +25,10 @@ export default function Home() {
               Four Languages.
             </span>
             <br />
-            Total Coverage.
+            Full Coverage Across the Americas.
           </h1>
           <p className="font-body text-lg md:text-xl text-on-surface-variant max-w-2xl mb-12 font-light leading-relaxed">
-            Sovereign BPO architecture for the modern era. We unify specialized
-            physical centers with a proprietary virtual network across America's
-            strategic hubs.
+            We deliver customer support, sales, and back-office operations through a unified multicountry model—one contract, one SLA, and one operational standard.
           </p>
           <div className="flex flex-col md:flex-row gap-6">
             <Link href="/technical-briefing">
@@ -78,29 +76,26 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="bg-surface-container-low p-10 hover:bg-surface-container-high transition-colors group">
             <span className="material-symbols-outlined text-primary-container text-4xl mb-8">
-              location_on
+              support_agent
             </span>
             <h3 className="font-headline text-2xl font-bold mb-4 uppercase tracking-tight">
-              Fixed Centers
+              Customer Support
             </h3>
             <p className="font-body text-sm text-on-surface-variant leading-relaxed mb-8">
-              Redundant, secure, and physically optimized hubs in USA, Canada,
-              and LatAm's most stable economic zones.
+              Voice, chat, and email support for technical, transactional, and general inquiries, all executed under strict SLA standards.
             </p>
             <div className="h-1 w-0 group-hover:w-full bg-primary-container transition-all duration-500"></div>
           </div>
-          <div className="bg-surface-container-highest p-10 relative overflow-hidden">
+          <div className="bg-surface-container-highest p-10 relative overflow-hidden group">
             <div className="relative z-10">
               <span className="material-symbols-outlined text-primary-container text-4xl mb-8">
-                cloud
+                trending_up
               </span>
               <h3 className="font-headline text-2xl font-bold mb-4 uppercase tracking-tight">
-                Virtual Network
+                Sales Operations
               </h3>
               <p className="font-body text-sm text-on-surface-variant leading-relaxed mb-8">
-                {" "}
-                Proprietary infrastructure allowing for instant elite talent
-                deployment regardless of geography.
+                Multilingual customer acquisition and lead qualification designed to scale your revenue across the Americas.
               </p>
             </div>
             <div className="absolute bottom-0 right-0 p-4 opacity-10">
@@ -111,19 +106,19 @@ export default function Home() {
                 hub
               </span>
             </div>
+            <div className="h-1 w-0 group-hover:w-full bg-primary-container absolute bottom-0 left-0 transition-all duration-500"></div>
           </div>
           <div className="bg-surface-container-low p-10 hover:bg-surface-container-high transition-colors group">
             <span className="material-symbols-outlined text-primary-container text-4xl mb-8">
-              security
+              account_tree
             </span>
             <h3 className="font-headline text-2xl font-bold mb-4 uppercase tracking-tight">
-              Executive Security
+              Back-Office Support
             </h3>
             <p className="font-body text-sm text-on-surface-variant leading-relaxed mb-8">
-              Financial-tier data protection protocols across all touchpoints,
-              physical or digital.
+              Order processing, data management, and operational reporting for scaling businesses requiring high-precision execution.
             </p>
-            <div className="h-1 w-0 group-hover:w-full bg-primary-container transition-all duration-500"></div>
+            <div className="h-1 w-1/3 bg-primary-container/20 group-hover:w-full transition-all duration-500"></div>
           </div>
         </div>
       </section>
@@ -142,10 +137,10 @@ export default function Home() {
               </span>
               <div>
                 <h4 className="font-headline font-bold uppercase tracking-widest text-lg">
-                  USA & Canada
+                  United States & Canada
                 </h4>
                 <p className="font-body text-sm text-on-surface-variant">
-                  Core command centers and premium support delivery.
+                  Multilingual operations serving established markets with native English and French.
                 </p>
               </div>
             </div>
@@ -158,7 +153,7 @@ export default function Home() {
                   Latin America
                 </h4>
                 <p className="font-body text-sm text-on-surface-variant">
-                  Strategic cost-efficiency and cultural alignment.
+                  Strategic hubs for Spanish and Portuguese coverage across the continent.
                 </p>
               </div>
             </div>

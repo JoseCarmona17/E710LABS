@@ -15,14 +15,12 @@ export default function Difference() {
             The Sovereign Architecturalist
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl lg:text-8xl font-extrabold tracking-tighter leading-tight mb-8">
-            Structural Difference,
+            Structural Advantage,
             <br />
-            <span className="text-primary-container">Not Technical.</span>
+            <span className="text-primary-container">Multicountry Scale.</span>
           </h1>
           <p className="text-xl text-on-surface-variant font-light max-w-2xl leading-relaxed">
-            While traditional BPOs scale through repetition, we scale through
-            engineering. Our hybrid infrastructure is built for those who demand
-            absolute operational command and total transparency.
+            Our hybrid multicountry architecture eliminates geographic risk through diversified delivery locations across the Americas, managed under a single, unified framework.
           </p>
         </div>
       </section>
@@ -81,60 +79,46 @@ export default function Difference() {
             </div>
             <h2 className="text-3xl font-bold uppercase tracking-tight mb-12 flex items-center gap-4 text-primary-container">
               <span className="material-symbols-outlined">bolt</span>
-              710LABS Hybrid Infrastructure
+              E710Labs Strategic Foundation
             </h2>
             <div className="space-y-12">
               <div className="bg-surface-container-highest p-8 relative border-l-4 border-primary-container">
                 <h3 className="text-sm font-bold uppercase tracking-widest text-primary-container mb-4">
-                  Superior Operational Command
+                  Hybrid Multicountry Architecture
                 </h3>
                 <div className="flex items-end gap-2 mb-2">
                   <span className="text-4xl font-extrabold tracking-tighter">
-                    99.9%
-                  </span>
-                  <span className="text-xs uppercase font-bold text-on-surface-variant pb-1">
-                    Uptime SLA
+                    Low Risk
                   </span>
                 </div>
                 <p className="text-on-surface text-sm leading-relaxed">
-                  Our Hybrid model blends edge computing with decentralized
-                  talent hubs, ensuring you maintain absolute command over your
-                  operations globally.
+                  Diversified delivery locations ensure operational continuity and reduced geographic dependency for your critical projects.
                 </p>
               </div>
               <div className="bg-surface-container-highest p-8 relative border-l-4 border-primary-container">
                 <h3 className="text-sm font-bold uppercase tracking-widest text-primary-container mb-4">
-                  Immediate Scalability
+                  Direct Talent Control
                 </h3>
                 <div className="flex items-end gap-2 mb-2">
                   <span className="text-4xl font-extrabold tracking-tighter">
-                    &lt; 72 HRS
-                  </span>
-                  <span className="text-xs uppercase font-bold text-on-surface-variant pb-1">
-                    Expansion Speed
+                    100% Direct
                   </span>
                 </div>
                 <p className="text-on-surface text-sm leading-relaxed">
-                  Kinetic architecture allows for instant squad deployment. We
-                  bridge physical and digital spaces to remove growth friction.
+                  No labor resale or unmanaged outsourcing. All teams operate directly under E710Labs standards and managed processes.
                 </p>
               </div>
               <div className="bg-surface-container-highest p-8 relative border-l-4 border-primary-container">
                 <h3 className="text-sm font-bold uppercase tracking-widest text-primary-container mb-4">
-                  Total Talent Transparency
+                  Single Contract Model
                 </h3>
                 <div className="flex items-end gap-2 mb-2">
                   <span className="text-4xl font-extrabold tracking-tighter">
-                    100%
-                  </span>
-                  <span className="text-xs uppercase font-bold text-on-surface-variant pb-1">
-                    Visibility
+                    Simplified
                   </span>
                 </div>
                 <p className="text-on-surface text-sm leading-relaxed">
-                  Full architectural transparency. Monitor performance, vetting
-                  stages, and talent DNA through our integrated command
-                  interface.
+                  Consistent quality across regions under one unified contract and SLA, simplifying vendor management and oversight.
                 </p>
               </div>
             </div>

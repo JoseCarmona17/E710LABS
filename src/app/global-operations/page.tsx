@@ -21,9 +21,7 @@ export default function GlobalOperations() {
             INFRASTRUCTURE
           </h1>
           <p className="font-body text-xl text-tertiary max-w-2xl leading-relaxed border-l-2 border-primary-container pl-8 py-2">
-            Engineering a high-performance hybrid model. Fixed strategic hubs in
-            USA and Costa Rica paired with a resilient, distributed virtual
-            network for total operational dominance.
+            Eliminating geographic risk through a unified multicountry model. We combine physical centers in the US, Canada, and Latin America with a proprietary distributed workforce for seamless scalability.
           </p>
         </div>
         <div className="absolute right-12 bottom-12 hidden lg:block">
@@ -48,59 +46,61 @@ export default function GlobalOperations() {
       <section className="py-16 md:py-24 px-6 md:px-12 bg-surface-dim">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-px bg-white/5 border border-white/5">
           <div className="md:col-span-8 bg-surface-container-low p-6 md:p-12 lg:p-10 md:p-20">
-            <h2 className="font-headline text-3xl md:text-5xl font-black mb-16 tracking-tighter">
-              HYBRID OPERATIONAL MODEL
+            <h2 className="font-headline text-3xl md:text-5xl font-black mb-16 tracking-tighter uppercase">
+              How We Work: The One-SLA Framework
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:p-12">
-              <div className="space-y-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-12">
+              <div className="space-y-4">
                 <div className="flex items-center gap-4">
                   <span className="text-xs font-black text-primary-container bg-primary-container/10 px-2 py-1">
-                    CORE_01
+                    STEP_01
                   </span>
-                  <h3 className="text-on-surface font-headline font-bold text-2xl uppercase tracking-tight">
-                    USA COMMAND HUB
+                  <h3 className="text-on-surface font-headline font-bold text-xl uppercase tracking-tight">
+                    Operational Assessment
                   </h3>
                 </div>
-                <p className="font-body text-base text-tertiary leading-relaxed">
-                  Tier IV Data centers situated in key financial corridors.
-                  Optimized for ultra-low latency and maximum data sovereignty
-                  compliant with federal standards and high-stakes trade
-                  environments.
+                <p className="font-body text-sm text-tertiary leading-relaxed">
+                  We evaluate your markets, service volumes, customer profiles, and language requirements to design a tailored operational roadmap.
                 </p>
-                <div className="pt-4 flex flex-wrap gap-2">
-                  <span className="px-3 py-1 bg-surface-container-high text-[10px] font-label uppercase border border-white/5">
-                    NY-METRO_01
-                  </span>
-                  <span className="px-3 py-1 bg-surface-container-high text-[10px] font-label uppercase border border-white/5">
-                    TX-CORE_04
-                  </span>
-                  <span className="px-3 py-1 bg-surface-container-high text-[10px] font-label uppercase border border-white/5">
-                    VA-QUANTUM
-                  </span>
-                </div>
               </div>
-              <div className="space-y-6">
+              <div className="space-y-4">
                 <div className="flex items-center gap-4">
                   <span className="text-xs font-black text-primary-container bg-primary-container/10 px-2 py-1">
-                    CORE_02
+                    STEP_02
                   </span>
-                  <h3 className="text-on-surface font-headline font-bold text-2xl uppercase tracking-tight">
-                    LATAM STRATEGIC HUB
+                  <h3 className="text-on-surface font-headline font-bold text-xl uppercase tracking-tight">
+                    Team Design & Deployment
                   </h3>
                 </div>
-                <p className="font-body text-base text-tertiary leading-relaxed">
-                  Strategic nearshore headquarters in Costa Rica. Hybrid
-                  operational center focusing on multilingual technical support
-                  and specialized tactical redundancy for global client success.
+                <p className="font-body text-sm text-tertiary leading-relaxed">
+                  We deploy the appropriate mix of physical-center and distributed teams aligned to your specific regional and linguistic needs.
                 </p>
-                <div className="pt-4 flex flex-wrap gap-2">
-                  <span className="px-3 py-1 bg-surface-container-high text-[10px] font-label uppercase border border-white/5">
-                    SJ-LATAM_OPS
+              </div>
+              <div className="space-y-4">
+                <div className="flex items-center gap-4">
+                  <span className="text-xs font-black text-primary-container bg-primary-container/10 px-2 py-1">
+                    STEP_03
                   </span>
-                  <span className="px-3 py-1 bg-surface-container-high text-[10px] font-label uppercase border border-white/5">
-                    MULTILINGUAL_ELITE
-                  </span>
+                  <h3 className="text-on-surface font-headline font-bold text-xl uppercase tracking-tight">
+                    Unified Execution
+                  </h3>
                 </div>
+                <p className="font-body text-sm text-tertiary leading-relaxed">
+                  All operations are managed under a single SLA, QA framework, and reporting system, ensuring consistency across every country.
+                </p>
+              </div>
+              <div className="space-y-4">
+                <div className="flex items-center gap-4">
+                  <span className="text-xs font-black text-primary-container bg-primary-container/10 px-2 py-1">
+                    STEP_04
+                  </span>
+                  <h3 className="text-on-surface font-headline font-bold text-xl uppercase tracking-tight">
+                    Continuous Scaling
+                  </h3>
+                </div>
+                <p className="font-body text-sm text-tertiary leading-relaxed">
+                  Add languages, regions, or volume without changing vendors or disrupting operations. Our model is built for frictionless growth.
+                </p>
               </div>
             </div>
           </div>

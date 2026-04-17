@@ -16,17 +16,10 @@ export default function Culture() {
             Identity & Excellence
           </div>
           <h1 className="font-headline font-extrabold text-4xl md:text-6xl lg:text-7xl lg:text-9xl leading-[0.9] tracking-tighter mb-8 uppercase italic">
-            The{" "}
-            <span className="text-primary-container block not-italic">
-              710LABS
-            </span>{" "}
-            Standard
+            Structure. <span className="text-primary-container block not-italic">Accountability.</span> Performance.
           </h1>
           <p className="font-body text-xl text-on-surface-variant max-w-2xl leading-relaxed font-light mb-10">
-            We are not an option; we are the authority. Our culture is not built
-            on consensus, but on{" "}
-            <span className="text-white font-bold">unwavering discipline</span>{" "}
-            and military-grade execution.
+            Our culture is built on measurable outcomes and disciplined operations. We believe operational excellence is achieved through process clarity and talent accountability—not improvisation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <button className="bg-primary-container text-on-primary-container font-headline font-bold uppercase tracking-tight px-10 py-5 transition-all hover:bg-surface-bright">
@@ -55,13 +48,10 @@ export default function Culture() {
                 </span>
               </div>
               <h3 className="font-headline font-extrabold text-4xl uppercase tracking-tighter mb-6">
-                Iron Discipline
+                Process Clarity
               </h3>
               <p className="font-body text-on-surface-variant leading-relaxed max-w-md">
-                Success begins before the sun. Mandatory training commences at{" "}
-                <span className="text-white font-bold">6:00 AM</span>.
-                Punctuality is not a virtue; it is a baseline requirement for
-                entry.
+                We operate under standardized procedures designed for absolute consistency. Clarity in execution is the foundation of our multicountry success.
               </p>
             </div>
             <div className="mt-16 flex items-center gap-4 text-primary-container font-label uppercase tracking-widest text-xs font-bold group-hover:translate-x-2 transition-transform cursor-pointer">
@@ -89,11 +79,10 @@ export default function Culture() {
                 </span>
               </div>
               <h3 className="font-headline font-extrabold text-4xl uppercase tracking-tighter mb-6">
-                Elite Execution
+                Measurable Outcomes
               </h3>
               <p className="font-body text-on-surface-variant leading-relaxed">
-                Our performance benchmarks are the floor, not the ceiling. In
-                710LABS, excellence is the statistical norm, not the exception.
+                Performance is not subjective. We prioritize disciplined operations where every metric is tracked, audited, and optimized for performance.
               </p>
             </div>
             {/* Metric Monolith */}
