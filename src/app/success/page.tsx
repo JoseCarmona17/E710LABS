@@ -182,7 +182,7 @@ export default function Success() {
             </span>
             <div className="relative z-10 max-w-3xl">
               <p className="font-headline text-4xl font-medium leading-tight mb-12 text-on-surface italic">
-                "E710LABS hasn't just provided an operational layer; they've institutionalized our recovery yield. Their Compliance Shield is the only framework that allowed our fund to deploy into LatAm with zero friction."
+                "E710Labs built an executive-level operations team that delivered precision, speed, and scalability across our core business functions"
               </p>
               <div className="flex items-center space-x-6">
                 <div className="w-16 h-16 bg-primary-container flex items-center justify-center font-bold text-white text-xl">
@@ -190,10 +190,10 @@ export default function Success() {
                 </div>
                 <div>
                   <p className="font-label text-sm font-bold tracking-[0.2em] uppercase text-white">
-                    Leonardo Cabral
+                    Max Miller
                   </p>
                   <p className="text-xs text-primary-container font-bold uppercase tracking-widest mt-1">
-                    Director of Distressed Assets, Sovereign Fund
+                    COO,E710labs
                   </p>
                 </div>
               </div>
