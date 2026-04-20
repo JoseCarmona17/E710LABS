@@ -142,7 +142,7 @@ export default function Difference() {
               unifies your global operation under a single legal and operational
               framework, guaranteeing the same precision in every interaction.
             </p>
-            <div className="grid grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
               {["EN", "ES", "FR", "PT"].map((lang) => (
                 <div
                   key={lang}

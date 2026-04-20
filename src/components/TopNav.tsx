@@ -36,23 +36,23 @@ export default function TopNav() {
   };
 
   return (
-    <nav className="fixed top-0 w-full z-50 bg-[#131313]/90 backdrop-blur-xl border-b border-white/5">
+    <nav className="fixed top-0 w-full z-[100] bg-[#131313] md:bg-[#131313]/90 backdrop-blur-xl border-b border-white/10 isolate">
       <div className="flex justify-between items-center px-6 md:px-12 h-20">
-        <Link href="/" className="flex items-center group relative z-50 w-fit shrink-0">
-          <div className="relative h-16 w-28 sm:h-20 sm:w-32 transition-transform duration-500 ease-out group-hover:scale-[1.02] filter drop-shadow-[0_0_8px_rgba(230,0,0,0.2)]">
+        <Link href="/" className="flex items-center group relative z-[110] w-fit shrink-0">
+          <div className="relative h-14 w-24 sm:h-20 sm:w-32 transition-transform duration-500 ease-out group-hover:scale-[1.02] filter drop-shadow-[0_0_8px_rgba(230,0,0,0.2)]">
             <Image
               src="/logo.png"
               alt="E710LABS ONE BPO"
               fill
               sizes="(max-width: 640px) 150px, 200px"
-              className="object-contain object-left scale-[1.7] transform origin-left"
+              className="object-contain object-left scale-125 sm:scale-[1.7] transform origin-left"
               priority
             />
           </div>
         </Link>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex gap-4 lg:gap-8 xl:gap-10">
+        <div className="hidden md:flex gap-4 lg:gap-8 xl:gap-10 font-label">
           {navLinks.map((link) => (
             <Link
               key={link.name}
@@ -82,7 +82,7 @@ export default function TopNav() {
             href="/global-operations"
             className="flex items-center justify-center"
           >
-            <span className="material-symbols-outlined text-white/70 hover:text-[#E60000] cursor-pointer text-xl lg:text-2xl">
+            <span className="material-symbols-outlined text-white hover:text-[#E60000] cursor-pointer text-xl lg:text-2xl">
               language
             </span>
           </Link>
@@ -94,20 +94,21 @@ export default function TopNav() {
         </div>
 
         {/* Mobile Hamburger Button */}
-        <div className="md:hidden flex items-center gap-4">
+        <div className="md:hidden flex items-center gap-2 shrink-0 relative z-[110]">
           <Link
             href="/global-operations"
-            className="flex items-center justify-center"
+            className="flex items-center justify-center p-3"
           >
-            <span className="material-symbols-outlined text-white/70 hover:text-[#E60000] cursor-pointer text-[20px]">
+            <span className="material-symbols-outlined text-white cursor-pointer text-[24px] block">
               language
             </span>
           </Link>
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="text-white/70 hover:text-white focus:outline-none"
+            className="text-white focus:outline-none p-3"
+            aria-label="Toggle Menu"
           >
-            <span className="material-symbols-outlined text-[28px] leading-none block">
+            <span className="material-symbols-outlined text-[34px] leading-none block">
               {isOpen ? "close" : "menu"}
             </span>
           </button>
@@ -116,7 +117,7 @@ export default function TopNav() {
 
       {/* Mobile Menu Dropdown */}
       {isOpen && (
-        <div className="md:hidden bg-[#131313]/95 backdrop-blur-xl border-b border-white/5 px-6 pt-4 pb-8 flex flex-col gap-6 h-[calc(100vh-5rem)] overflow-y-auto w-full">
+        <div className="md:hidden bg-[#131313] backdrop-blur-xl border-b border-white/5 px-6 pt-4 pb-8 flex flex-col gap-6 h-[calc(100vh-5rem)] overflow-y-auto w-full relative z-[120]">
           {navLinks.map((link) => (
             <Link
               key={link.name}
@@ -136,11 +137,11 @@ export default function TopNav() {
               <p className="text-white/40 text-[10px] font-bold uppercase tracking-widest mb-4">
                 Locale Status
               </p>
-              <div className="flex gap-4 text-xs font-bold font-headline">
+              <div className="flex gap-4 text-xs font-bold font-headline text-white">
                 <span className="text-[#E60000]">EN</span>
-                <span className="text-white/50">ES</span>
-                <span className="text-white/50">FR</span>
-                <span className="text-white/50">PT</span>
+                <span>ES</span>
+                <span>FR</span>
+                <span>PT</span>
               </div>
             </div>
             <Link

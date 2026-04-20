@@ -92,7 +92,7 @@ export default function Technical() {
 
         {/* Right Column: Technical Briefing Form */}
         <div className="lg:col-span-2">
-          <div className="bg-surface-container-highest p-8 md:p-12 border-t-4 border-primary-container shadow-2xl">
+          <div className="bg-surface-container-highest p-6 md:p-12 border-t-4 border-primary-container shadow-2xl">
             <div className="mb-10">
               <h2 className="font-headline text-3xl font-black uppercase tracking-tighter mb-2">
                 Technical Briefing Intake
@@ -145,12 +145,12 @@ export default function Technical() {
                 </select>
               </div>
               {/* Regional Nodes */}
-              <div className="col-span-2 flex flex-col gap-3">
+              <div className="md:col-span-2 flex flex-col gap-3">
                 <label className="font-label text-[10px] uppercase tracking-widest text-primary-container font-bold">
                   Operational Zones
                 </label>
                 <div className="flex flex-wrap gap-2">
-                  <label className="flex items-center gap-3 bg-surface-container-low px-4 py-2 cursor-pointer hover:bg-surface-bright transition-colors border border-white/5">
+                  <label className="flex items-center gap-3 bg-surface-container-low px-4 py-2 cursor-pointer hover:bg-surface-bright transition-colors border border-white/5 w-full sm:w-auto">
                     <input
                       className="w-3 h-3 rounded-none border-outline-variant bg-transparent text-primary-container focus:ring-0"
                       type="checkbox"
@@ -159,7 +159,7 @@ export default function Technical() {
                       United States
                     </span>
                   </label>
-                  <label className="flex items-center gap-3 bg-surface-container-low px-4 py-2 cursor-pointer hover:bg-surface-bright transition-colors border border-white/5">
+                  <label className="flex items-center gap-3 bg-surface-container-low px-4 py-2 cursor-pointer hover:bg-surface-bright transition-colors border border-white/5 w-full sm:w-auto">
                     <input
                       className="w-3 h-3 rounded-none border-outline-variant bg-transparent text-primary-container focus:ring-0"
                       type="checkbox"
@@ -168,7 +168,7 @@ export default function Technical() {
                       Canada
                     </span>
                   </label>
-                  <label className="flex items-center gap-3 bg-surface-container-low px-4 py-2 cursor-pointer hover:bg-surface-bright transition-colors border border-white/5">
+                  <label className="flex items-center gap-3 bg-surface-container-low px-4 py-2 cursor-pointer hover:bg-surface-bright transition-colors border border-white/5 w-full sm:w-auto">
                     <input
                       className="w-3 h-3 rounded-none border-outline-variant bg-transparent text-primary-container focus:ring-0"
                       type="checkbox"
@@ -180,7 +180,7 @@ export default function Technical() {
                 </div>
               </div>
               {/* Technical Requirements */}
-              <div className="col-span-2 flex flex-col gap-2">
+              <div className="md:col-span-2 flex flex-col gap-2">
                 <label className="font-label text-[10px] uppercase tracking-widest text-primary-container font-bold">
                   Architecture Brief / Technical Scope
                 </label>
@@ -190,12 +190,12 @@ export default function Technical() {
                   rows={4}
                 ></textarea>
               </div>
-              <div className="col-span-2 pt-6">
-                <button className="w-full bg-primary-container py-5 flex items-center justify-center gap-4 group transition-all hover:bg-white">
-                  <span className="font-headline font-black uppercase tracking-[0.2em] text-sm text-on-primary-container group-hover:text-primary-container">
+              <div className="md:col-span-2 pt-6">
+                <button className="w-full bg-primary-container py-5 flex items-center justify-center gap-4 group transition-all hover:bg-white text-on-primary-container">
+                  <span className="font-headline font-black uppercase tracking-[0.2em] text-sm group-hover:text-primary-container">
                     Transmit Directives
                   </span>
-                  <span className="material-symbols-outlined text-on-primary-container group-hover:text-primary-container text-lg">
+                  <span className="material-symbols-outlined group-hover:text-primary-container text-lg">
                     send
                   </span>
                 </button>

@@ -11,13 +11,13 @@ export default function Success() {
           <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-transparent"></div>
         </div>
         <div className="relative z-10 max-w-5xl">
-          <span className="font-label text-primary-container font-bold tracking-[0.4em] uppercase mb-6 block border-l-4 border-primary-container pl-4">
+          <span className="font-label text-[10px] md:text-xs text-primary-container font-bold tracking-[0.4em] uppercase mb-4 md:mb-6 block border-l-4 border-primary-container pl-4">
             The Executive Vanguard
           </span>
-          <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl lg:text-[120px] font-extrabold tracking-tighter leading-none mb-8">
+          <h1 className="font-headline text-3xl md:text-6xl lg:text-7xl lg:text-[120px] font-extrabold tracking-tighter leading-[0.95] md:leading-none mb-8">
             ELITE <br /> <span className="text-white">PARTNERSHIPS</span>
           </h1>
-          <p className="font-body text-xl md:text-2xl text-tertiary max-w-2xl leading-relaxed opacity-80">
+          <p className="font-body text-base md:text-2xl text-tertiary max-w-2xl leading-relaxed opacity-80">
             Deploying operational rigour and cultural fluency for the world's
             most demanding market leaders. From Fintech disruption to Ecommerce
             scaling.
@@ -103,7 +103,7 @@ export default function Success() {
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-12 gap-1 bg-outline-variant/10">
-          <div className="md:col-span-8 group relative aspect-[16/9] md:aspect-auto md:h-[600px] overflow-hidden bg-surface-container-highest">
+          <div className="md:col-span-8 group relative aspect-[16/9] md:aspect-auto h-[400px] md:h-[600px] overflow-hidden bg-surface-container-highest">
             <img
               alt="Debt Resolution Case Study"
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-60 grayscale hover:grayscale-0 transition-all"
@@ -117,10 +117,10 @@ export default function Success() {
               <h3 className="font-headline text-3xl md:text-5xl font-bold mb-6 tracking-tight max-w-xl">
                 Non-Performing Asset Transformation
               </h3>
-              <p className="text-tertiary max-w-xl mb-8 text-lg opacity-80">
+              <p className="text-tertiary max-w-xl mb-8 text-base md:text-lg opacity-80">
                 Institutionalizing recovery protocols for a $1.2B distressed debt portfolio, converting friction into predictable revenue streams through behavioral segmentation.
               </p>
-              <button className="flex items-center group/btn text-xs font-bold uppercase tracking-[0.3em] text-primary-container border-b border-primary-container/30 pb-2">
+              <button className="flex items-center group/btn text-[10px] md:text-xs font-bold uppercase tracking-[0.3em] text-primary-container border-b border-primary-container/30 pb-2">
                 Analyze Recovery Yield{" "}
                 <span className="material-symbols-outlined ml-4 transition-transform group-hover/btn:translate-x-4">
                   arrow_forward
@@ -128,7 +128,7 @@ export default function Success() {
               </button>
             </div>
           </div>
-          <div className="md:col-span-4 group relative overflow-hidden bg-surface-container-high h-[600px]">
+          <div className="md:col-span-4 group relative overflow-hidden bg-surface-container-high h-[400px] md:h-[600px]">
             <img
               alt="Fintech Integration"
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-50 grayscale hover:grayscale-0"
@@ -139,18 +139,18 @@ export default function Success() {
               <span className="inline-block border border-white/40 text-white text-[10px] font-bold px-4 py-1.5 mb-6 tracking-[0.2em] uppercase w-fit">
                 Sector: Fintech
               </span>
-              <h3 className="font-headline text-4xl font-bold mb-6 tracking-tight">
+              <h3 className="font-headline text-2xl md:text-4xl font-bold mb-6 tracking-tight">
                 Compliance-Native Scaling
               </h3>
               <p className="text-tertiary text-sm mb-10 leading-relaxed">
                 Embedding the Compliance Shield into a high-growth Brazilian fintech to bridge regional operations with international regulatory standards.
               </p>
-              <button className="material-symbols-outlined text-primary-container text-3xl md:text-5xl hover:scale-110 transition-transform">
+              <button className="material-symbols-outlined text-primary-container text-3xl md:text-5xl hover:scale-110 transition-transform w-fit">
                 verified
               </button>
             </div>
           </div>
-          <div className="md:col-span-4 group relative overflow-hidden bg-surface-container-high h-[500px]">
+          <div className="md:col-span-4 group relative overflow-hidden bg-surface-container-high h-[400px] md:h-[500px]">
             <img
               alt="Capital Advisor Case Study"
               className="w-full h-full object-cover opacity-50 grayscale hover:grayscale-0 transition-all duration-700"
@@ -161,10 +161,10 @@ export default function Success() {
                 OPERATIONS / RESTRUCTURING
               </span>
               <div>
-                <h3 className="font-headline text-3xl font-bold mb-6">
+                <h3 className="font-headline text-2xl md:text-3xl font-bold mb-6">
                   Yield Visibility
                 </h3>
-                <p className="text-tertiary text-sm leading-relaxed mb-8">
+                <p className="text-tertiary text-xs md:text-sm leading-relaxed mb-8">
                   Engineering real-time audit trails and performance instrumentation for Tier 1 capital deployment in fragmented markets.
                 </p>
                 <div className="h-1 w-full bg-primary-container/20 overflow-hidden">

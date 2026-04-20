@@ -49,9 +49,9 @@
   --color-on-error-container: #ffdad6;
   --color-primary-fixed: #ffdad4;
 
-  --font-headline: "Manrope", sans-serif;
-  --font-body: "Inter", sans-serif;
-  --font-label: "Inter", sans-serif;
+  --font-headline: var(--font-gotham), sans-serif;
+  --font-body: var(--font-opensans), sans-serif;
+  --font-label: var(--font-helvetica), sans-serif;
   
   --radius-sm: 0px;
   --radius-md: 0px;

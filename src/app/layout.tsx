@@ -1,17 +1,22 @@
 import type { Metadata } from "next";
-import { Inter, Manrope } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import TopNav from "@/components/TopNav";
 import Footer from "@/components/Footer";
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
+const gotham = localFont({
+  src: "../../public/Gotham-Bold.otf",
+  variable: "--font-gotham",
 });
 
-const manrope = Manrope({
-  variable: "--font-manrope",
-  subsets: ["latin"],
+const helvetica = localFont({
+  src: "../../public/helvetica-world.ttf",
+  variable: "--font-helvetica",
+});
+
+const openSans = localFont({
+  src: "../../public/open-sans.semibold.ttf",
+  variable: "--font-opensans",
 });
 
 export const metadata: Metadata = {
@@ -33,7 +38,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${inter.variable} ${manrope.variable} font-body bg-surface-dim text-on-surface selection:bg-primary-container selection:text-on-primary-container min-h-screen flex flex-col antialiased`}
+        className={`${gotham.variable} ${helvetica.variable} ${openSans.variable} font-body bg-surface-dim text-on-surface selection:bg-primary-container selection:text-on-primary-container min-h-screen flex flex-col antialiased`}
       >
         <TopNav />
         <main className="flex-1">{children}</main>

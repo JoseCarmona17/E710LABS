@@ -172,13 +172,13 @@ export default function GlobalOperations() {
               </div>
             </div>
             <div>
-              <h3 className="font-headline text-3xl md:text-5xl md:text-8xl font-black mb-2 tracking-tighter">
+              <h3 className="font-headline text-5xl md:text-8xl font-black mb-2 tracking-tighter">
                 &lt;72 HRS
               </h3>
-              <p className="font-label text-sm uppercase tracking-[0.2em] text-primary-container font-black">
+              <p className="font-label text-xs md:text-sm uppercase tracking-[0.2em] text-primary-container font-black">
                 DEPLOYMENT SPEED
               </p>
-              <p className="font-body text-base text-tertiary mt-6 max-w-md">
+              <p className="font-body text-sm md:text-base text-tertiary mt-6 max-w-md">
                 Rapid-onboarding protocol for enterprise-scale tactical teams
                 anywhere in the global grid. Zero friction transition.
               </p>
@@ -296,30 +296,30 @@ export default function GlobalOperations() {
             <div className="h-[1px] w-24 bg-white/20"></div>
           </div>
         </div>
-        <div className="relative aspect-[21/9] w-full bg-black overflow-hidden border border-white/10 shadow-[0_0_20px_rgba(230,0,0,0.2)]">
+        <div className="relative aspect-[4/5] md:aspect-[21/9] w-full bg-black overflow-hidden border border-white/10 shadow-[0_0_20px_rgba(230,0,0,0.2)]">
           <img
             alt="NOC Visualization"
             className="w-full h-full object-cover opacity-40 brightness-50"
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTAwbjYpw_X9rEb1_UYMoPV9briCGLo6o1GIFLj6zbeD-YzMsP0HOC_5hZanrvAgrUNchEFCOPB47ejQ72y5F2vsdvW41esXUxVm_6AYtA6l14IkQ2v5ZYqaJlZkIlcoNSkkvS--3OrI2uymwqSplyOHtu1tW-ZpeT_OQMYDkwa1ti1Bai4GlnZ8DSWe-R7yykVE7Ef0t2zGBAqTKmSt7-ybBJZ_B91wi8SPrl3x5UxT_1A_oB6S9BPXF5bqueoP2Gn3zKX10Bu3ul"
           />
-          <div className="absolute inset-0 grid grid-cols-12 grid-rows-6 p-8 pointer-events-none">
-            <div className="col-start-2 row-start-2 bg-black/60 backdrop-blur-[20px] p-4 self-start border-l-4 border-primary-container h-fit w-fit">
+          <div className="absolute inset-0 flex flex-col md:grid md:grid-cols-12 md:grid-rows-6 p-4 md:p-8 pointer-events-none gap-4">
+            <div className="md:col-start-2 md:row-start-2 bg-black/60 backdrop-blur-[20px] p-4 self-start border-l-4 border-primary-container h-fit w-fit">
               <p className="font-label text-[10px] text-primary-container font-black tracking-widest uppercase">
                 LATENCY_CORE
               </p>
-              <p className="text-3xl font-headline font-black tracking-tighter text-white">
+              <p className="text-2xl md:text-3xl font-headline font-black tracking-tighter text-white">
                 12ms
               </p>
             </div>
-            <div className="col-start-9 row-start-2 bg-black/60 backdrop-blur-[20px] p-4 self-start border-l-4 border-primary-container h-fit w-fit">
+            <div className="md:col-start-9 md:row-start-2 bg-black/60 backdrop-blur-[20px] p-4 self-start border-l-4 border-primary-container h-fit w-fit">
               <p className="font-label text-[10px] text-primary-container font-black tracking-widest uppercase">
                 NODE_HEALTH
               </p>
-              <p className="text-3xl font-headline font-black tracking-tighter text-white">
+              <p className="text-2xl md:text-3xl font-headline font-black tracking-tighter text-white">
                 OPTIMAL
               </p>
             </div>
-            <div className="col-start-10 row-start-5 bg-black/60 backdrop-blur-[20px] p-4 self-end border-l-4 border-primary-container h-fit w-fit">
+            <div className="hidden md:block md:col-start-10 md:row-start-5 bg-black/60 backdrop-blur-[20px] p-4 self-end border-l-4 border-primary-container h-fit w-fit">
               <p className="font-label text-[10px] text-primary-container font-black tracking-widest uppercase">
                 GLOBAL_TRAFFIC
               </p>
@@ -328,19 +328,17 @@ export default function GlobalOperations() {
               </p>
             </div>
           </div>
-          <div className="absolute bottom-12 left-12 max-w-sm">
-            <div className="bg-primary-container/90 backdrop-blur-md p-8 border border-white/20">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-3 h-3 rounded-full bg-white animate-pulse"></div>
-                <h4 className="font-headline font-black uppercase text-xl text-on-primary-container">
+          <div className="absolute bottom-4 left-4 right-4 md:bottom-12 md:left-12 md:right-auto md:max-w-sm">
+            <div className="bg-primary-container/90 backdrop-blur-md p-4 md:p-8 border border-white/20">
+              <div className="flex items-center gap-3 mb-2 md:mb-4">
+                <div className="w-2 h-2 md:w-3 md:h-3 rounded-full bg-white animate-pulse"></div>
+                <h4 className="font-headline font-black uppercase text-sm md:text-xl text-on-primary-container">
                   LIVE MONITOR
                 </h4>
               </div>
-              <p className="font-body text-sm text-on-primary-container font-medium leading-relaxed">
-                Continuous 24/7/365 surveillance of the infrastructure. Our
-                engineers identify and resolve bottleneck issues before they
-                impact the client perimeter. Proactive elimination of downtime
-                risk.
+              <p className="font-body text-[10px] md:text-sm text-on-primary-container font-medium leading-relaxed">
+                Continuous 24/7/365 surveillance. Our engineers identify and
+                resolve bottleneck issues before they impact the perimeter.
               </p>
             </div>
           </div>
