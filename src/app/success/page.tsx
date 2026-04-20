@@ -186,14 +186,14 @@ export default function Success() {
               </p>
               <div className="flex items-center space-x-6">
                 <div className="w-16 h-16 bg-primary-container flex items-center justify-center font-bold text-white text-xl">
-                  LC
+                  COO
                 </div>
                 <div>
                   <p className="font-label text-sm font-bold tracking-[0.2em] uppercase text-white">
                     Max Miller
                   </p>
                   <p className="text-xs text-primary-container font-bold uppercase tracking-widest mt-1">
-                    COO,E710labs
+                    Chief Operating Officer , E710labs
                   </p>
                 </div>
               </div>
