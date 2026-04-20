@@ -22,6 +22,9 @@ const openSans = localFont({
 export const metadata: Metadata = {
   title: "710LABS - The Executive Vanguard",
   description: "The Executive Vanguard in Business Process Outsourcing.",
+  icons: {
+    icon: "/LogoC.png",
+  },
 };
 
 export default function RootLayout({
