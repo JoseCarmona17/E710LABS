@@ -78,47 +78,47 @@ export default function Difference() {
               </span>
             </div>
             <h2 className="text-3xl font-bold uppercase tracking-tight mb-12 flex items-center gap-4 text-primary-container">
-              <span className="material-symbols-outlined">bolt</span>
-              E710Labs Strategic Foundation
+              <span className="material-symbols-outlined">shield_with_heart</span>
+              Strategic Moats
             </h2>
             <div className="space-y-12">
               <div className="bg-surface-container-highest p-8 relative border-l-4 border-primary-container">
                 <h3 className="text-sm font-bold uppercase tracking-widest text-primary-container mb-4">
-                  Hybrid Multicountry Architecture
+                  The Retention Engine
                 </h3>
                 <div className="flex items-end gap-2 mb-2">
-                  <span className="text-4xl font-extrabold tracking-tighter">
-                    Low Risk
+                   <span className="text-4xl font-extrabold tracking-tighter">
+                    Behavioral Yield
                   </span>
                 </div>
                 <p className="text-on-surface text-sm leading-relaxed">
-                  Diversified delivery locations ensure operational continuity and reduced geographic dependency for your critical projects.
+                  Proprietary behavioral segmentation and omnichannel architecture designed to maximize recovery yield and borrower engagement through data-driven negotiation protocols.
                 </p>
               </div>
               <div className="bg-surface-container-highest p-8 relative border-l-4 border-primary-container">
                 <h3 className="text-sm font-bold uppercase tracking-widest text-primary-container mb-4">
-                  Direct Talent Control
+                  The Compliance Shield
                 </h3>
                 <div className="flex items-end gap-2 mb-2">
-                  <span className="text-4xl font-extrabold tracking-tighter">
-                    100% Direct
+                   <span className="text-4xl font-extrabold tracking-tighter">
+                    SOC 2 / GDPR
                   </span>
                 </div>
                 <p className="text-on-surface text-sm leading-relaxed">
-                  No labor resale or unmanaged outsourcing. All teams operate directly under E710Labs standards and managed processes.
+                  Institutional-grade governance architecture with SOC 2-aligned controls and real-time audit trails, allowing tier-1 entities to outsource without regulatory exposure.
                 </p>
               </div>
               <div className="bg-surface-container-highest p-8 relative border-l-4 border-primary-container">
                 <h3 className="text-sm font-bold uppercase tracking-widest text-primary-container mb-4">
-                  Single Contract Model
+                  Institutional Capital Integration
                 </h3>
                 <div className="flex items-end gap-2 mb-2">
-                  <span className="text-4xl font-extrabold tracking-tighter">
-                    Simplified
+                   <span className="text-4xl font-extrabold tracking-tighter">
+                    Operational Alpha
                   </span>
                 </div>
                 <p className="text-on-surface text-sm leading-relaxed">
-                  Consistent quality across regions under one unified contract and SLA, simplifying vendor management and oversight.
+                  Transforming fragmented execution into a strategic asset. We enable capital providers to deploy resources into LatAm with reduced friction and enhanced yield visibility.
                 </p>
               </div>
             </div>

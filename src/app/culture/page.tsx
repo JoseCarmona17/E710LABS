@@ -161,7 +161,7 @@ export default function Culture() {
                   </span>
                   <div>
                     <span className="block font-headline font-bold text-lg text-white uppercase italic">
-                      Corporate Delta Force
+                      High-Performance Division
                     </span>
                     <span className="text-white/80 font-body text-sm">
                       Operational precision across all global sectors.

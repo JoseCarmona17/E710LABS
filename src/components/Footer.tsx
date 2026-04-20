@@ -29,17 +29,17 @@ export default function Footer() {
           <li>
             <Link
               className="font-body text-[10px] tracking-[0.05em] uppercase text-white/40 hover:text-[#E60000] transition-colors"
-              href="/technical"
+              href="/about"
             >
-              Services & Tech
+              About Us
             </Link>
           </li>
           <li>
             <Link
               className="font-body text-[10px] tracking-[0.05em] uppercase text-white/40 hover:text-[#E60000] transition-colors"
-              href="/culture"
+              href="/difference"
             >
-              Culture
+              The Difference
             </Link>
           </li>
           <li>
@@ -47,7 +47,15 @@ export default function Footer() {
               className="font-body text-[10px] tracking-[0.05em] uppercase text-white/40 hover:text-[#E60000] transition-colors"
               href="/global-operations"
             >
-              Global Offices
+              Global Operations
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="font-body text-[10px] tracking-[0.05em] uppercase text-white/40 hover:text-[#E60000] transition-colors"
+              href="/success"
+            >
+              Success Stories
             </Link>
           </li>
         </ul>

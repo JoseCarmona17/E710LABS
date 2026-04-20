@@ -4,20 +4,20 @@ export default function Technical() {
       <section className="mb-24 grid grid-cols-1 lg:grid-cols-12 gap-6 md:p-12 items-end pt-24 md:pt-32 px-6 md:px-12 max-w-7xl mx-auto">
         <div className="lg:col-span-8">
           <h1 className="font-headline font-extrabold text-4xl md:text-6xl lg:text-7xl lg:text-8xl uppercase tracking-tighter leading-[0.9] text-on-background">
-            Secure <br />
-            <span className="text-primary-container">the Perimeter</span>
+            Institutional <br />
+            <span className="text-primary-container">Execution</span>
           </h1>
           <p className="mt-8 font-body text-lg text-on-surface-variant max-w-2xl font-light leading-relaxed">
-            E710Labs operates with clear service-level agreements, real-time operational reporting, data protection protocols, and compliance-conscious execution. Predictable performance and transparent metrics, regardless of geography.
+            E710Labs institutionalizes a Hybrid-Remote Operating Model delivering credit advisory, restructuring, and high-performance debt resolution. We convert non-performing assets into structured revenue streams with precision and predictability.
           </p>
         </div>
         <div className="lg:col-span-4 flex flex-col items-end gap-4">
           <div className="w-full h-px bg-outline-variant/30"></div>
           <span className="font-label text-[10px] tracking-[0.2em] uppercase text-primary-container font-bold">
-            Protocol: Alpha-710
+            Operational Alpha Protocol
           </span>
           <span className="font-label text-xs tracking-widest text-on-surface/50">
-            ENCRYPTED CONNECTION STABLE
+            STRATEGIC ADVISORY ACTIVE
           </span>
         </div>
       </section>

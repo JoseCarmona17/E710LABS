@@ -105,25 +105,23 @@ export default function Success() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-1 bg-outline-variant/10">
           <div className="md:col-span-8 group relative aspect-[16/9] md:aspect-auto md:h-[600px] overflow-hidden bg-surface-container-highest">
             <img
-              alt="Fintech Case Study"
+              alt="Debt Resolution Case Study"
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-60 grayscale hover:grayscale-0 transition-all"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDiaEyh2cEZdYSeTYpoaf-InGAxuJgFbzk6fAjSWdcvzbveI9R16Bkx7pyB9_Io_wY96nO_Kj0oT5_9tltfz1N1mGdT_jQgrJgBNqYyJtkDVwC2-xbBvrRpbU4M5RSWUTQG_HYloFB46C-cEDD_fj3FbkwGIvBYbIBEQmJyOgQ1IGFFdH29ik5YucujC36R42Dr81a5WkxTWC_HkWtVwIYjWi7hM7eURjcRFWAPnA09LOOF3cP0Hp_Bd7T_CC7NVPeMBQwdSbGSS7D9"
+              src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2670&auto=format&fit=crop"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
             <div className="absolute bottom-0 left-0 p-8 md:p-16 w-full">
               <span className="inline-block bg-primary-container text-white text-[10px] font-bold px-4 py-1.5 mb-6 tracking-[0.2em] uppercase">
-                Sector: Fintech
+                Sector: Asset Management
               </span>
               <h3 className="font-headline text-3xl md:text-5xl font-bold mb-6 tracking-tight max-w-xl">
-                The Neo-Bank Migration
+                Non-Performing Asset Transformation
               </h3>
               <p className="text-tertiary max-w-xl mb-8 text-lg opacity-80">
-                Integrating legacy core banking systems with modern API
-                infrastructures across 12 European markets while maintaining
-                zero downtime.
+                Institutionalizing recovery protocols for a $1.2B distressed debt portfolio, converting friction into predictable revenue streams through behavioral segmentation.
               </p>
               <button className="flex items-center group/btn text-xs font-bold uppercase tracking-[0.3em] text-primary-container border-b border-primary-container/30 pb-2">
-                Explore Technical Brief{" "}
+                Analyze Recovery Yield{" "}
                 <span className="material-symbols-outlined ml-4 transition-transform group-hover/btn:translate-x-4">
                   arrow_forward
                 </span>
@@ -132,47 +130,45 @@ export default function Success() {
           </div>
           <div className="md:col-span-4 group relative overflow-hidden bg-surface-container-high h-[600px]">
             <img
-              alt="Ecommerce Case Study"
+              alt="Fintech Integration"
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-50 grayscale hover:grayscale-0"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3WU1L65O_mPJCWSeIqtvURHMI7AA5DH-nShCxqfjRinYhCuyiA-Xd68KsRw2YRhN0LIplG20TMXBJWBSZyHkDqlXfNk9uPv_0cSTZpvpvGcmuJU8Oc7sQse0F46AaEkIypu_g_YpLPfNPEXPU2kKDs4HFBbhQYsfNynwN7KfPnSIEDuYKwHJmF00o5vmyWW5Ox1NQLDY5aqQS_v2VKg3KF2D27wDOjETJ0sg4-DbkdnkQwIdFf8I-7-M9xTJGSsJi-9v3tuvoBC9i"
+              src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2670&auto=format&fit=crop"
             />
             <div className="absolute inset-0 bg-primary-container/5 mix-blend-overlay"></div>
             <div className="absolute inset-0 p-8 md:p-16 flex flex-col justify-end bg-gradient-to-t from-black/80 to-transparent">
               <span className="inline-block border border-white/40 text-white text-[10px] font-bold px-4 py-1.5 mb-6 tracking-[0.2em] uppercase w-fit">
-                Sector: Ecommerce
+                Sector: Fintech
               </span>
               <h3 className="font-headline text-4xl font-bold mb-6 tracking-tight">
-                Global Retail Sync
+                Compliance-Native Scaling
               </h3>
               <p className="text-tertiary text-sm mb-10 leading-relaxed">
-                Real-time inventory orchestration and supply chain logistics for
-                a global luxury conglomerate.
+                Embedding the Compliance Shield into a high-growth Brazilian fintech to bridge regional operations with international regulatory standards.
               </p>
               <button className="material-symbols-outlined text-primary-container text-3xl md:text-5xl hover:scale-110 transition-transform">
-                add_circle
+                verified
               </button>
             </div>
           </div>
           <div className="md:col-span-4 group relative overflow-hidden bg-surface-container-high h-[500px]">
             <img
-              alt="Tech Case Study"
+              alt="Capital Advisor Case Study"
               className="w-full h-full object-cover opacity-50 grayscale hover:grayscale-0 transition-all duration-700"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0eq1Sy54jFMR3_VnkZKulkC83KS_IHKSpqoT_lg-SZFUX19PuVHhbkH8FGnHq_YRqp5eZmqq3So1cY82-2Luwg3BSyMTb5E2Zmx8BApAmVwOCnUqflUhneMDdr6JXPyViDNWUZIAx7xMuz8pTIgz0F-HHqg5aIKvN0n6Zzo_u80y_YmiknaIoHdTo57Fs7wZoikCBb8ZcOpntqoMm7ASGe-2LjMl8Ky5i7TxGCIE0LQ3gMk-QCJB_BhQ0icQodxeERCqPsvuiTzD_"
+              src="https://images.unsplash.com/photo-1543286386-713bdd548da4?auto=format&fit=crop&w=1000&q=80"
             />
             <div className="absolute inset-0 p-8 md:p-16 flex flex-col justify-between">
               <span className="font-label text-xs tracking-[0.3em] text-primary-container font-black">
-                ANALYSIS 03 / TECHNOLOGY
+                OPERATIONS / RESTRUCTURING
               </span>
               <div>
                 <h3 className="font-headline text-3xl font-bold mb-6">
-                  Cloud Sovereign
+                  Yield Visibility
                 </h3>
                 <p className="text-tertiary text-sm leading-relaxed mb-8">
-                  Securing critical digital infrastructure for a Silicon Valley
-                  unicorn with zero-trust architecture.
+                  Engineering real-time audit trails and performance instrumentation for Tier 1 capital deployment in fragmented markets.
                 </p>
                 <div className="h-1 w-full bg-primary-container/20 overflow-hidden">
-                  <div className="h-full bg-primary-container w-1/3"></div>
+                  <div className="h-full bg-primary-container w-[70%]"></div>
                 </div>
               </div>
             </div>
@@ -186,21 +182,18 @@ export default function Success() {
             </span>
             <div className="relative z-10 max-w-3xl">
               <p className="font-headline text-4xl font-medium leading-tight mb-12 text-on-surface italic">
-                "The operational rigour displayed by 710LABS is unparalleled.
-                They didn't just integrate our systems; they absorbed our
-                culture and transformed our global delivery model into a
-                competitive advantage."
+                "E710LABS hasn't just provided an operational layer; they've institutionalized our recovery yield. Their Compliance Shield is the only framework that allowed our fund to deploy into LatAm with zero friction."
               </p>
               <div className="flex items-center space-x-6">
                 <div className="w-16 h-16 bg-primary-container flex items-center justify-center font-bold text-white text-xl">
-                  MR
+                  LC
                 </div>
                 <div>
                   <p className="font-label text-sm font-bold tracking-[0.2em] uppercase text-white">
-                    Marcus Reign
+                    Leonardo Cabral
                   </p>
                   <p className="text-xs text-primary-container font-bold uppercase tracking-widest mt-1">
-                    Chief Technology Officer, Obsidian Financial
+                    Director of Distressed Assets, Sovereign Fund
                   </p>
                 </div>
               </div>

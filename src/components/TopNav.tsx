@@ -22,12 +22,11 @@ export default function TopNav() {
   }, [isOpen]);
 
   const navLinks = [
-    { name: "Services", href: "/technical" },
-    { name: "Difference", href: "/difference" },
-    { name: "Culture", href: "/culture" },
-    { name: "Operations", href: "/global-operations" },
-    { name: "Clients", href: "/success" },
     { name: "About Us", href: "/about" },
+    { name: "Difference", href: "/difference" },
+    { name: "Operations", href: "/global-operations" },
+    { name: "Success", href: "/success" },
+    { name: "Technical", href: "/technical" },
   ];
 
   // Helper function to check if the link is active
@@ -80,7 +79,7 @@ export default function TopNav() {
             <span>PT</span>
           </div>
           <Link
-            href="/multilingual"
+            href="/global-operations"
             className="flex items-center justify-center"
           >
             <span className="material-symbols-outlined text-white/70 hover:text-[#E60000] cursor-pointer text-xl lg:text-2xl">
@@ -97,7 +96,7 @@ export default function TopNav() {
         {/* Mobile Hamburger Button */}
         <div className="md:hidden flex items-center gap-4">
           <Link
-            href="/multilingual"
+            href="/global-operations"
             className="flex items-center justify-center"
           >
             <span className="material-symbols-outlined text-white/70 hover:text-[#E60000] cursor-pointer text-[20px]">

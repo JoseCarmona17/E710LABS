@@ -20,18 +20,18 @@ export default function Home() {
             </span>
           </div>
           <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl lg:text-8xl font-extrabold tracking-tighter leading-none mb-8 text-on-surface">
-            One BPO. <br />
+            Operational Alpha. <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-container to-white">
-              Four Languages.
+              Institutional Scale.
             </span>
             <br />
-            Full Coverage Across the Americas.
+            Next-Gen Debt Resolution.
           </h1>
           <p className="font-body text-lg md:text-xl text-on-surface-variant max-w-2xl mb-12 font-light leading-relaxed">
-            We deliver customer support, sales, and back-office operations through a unified multicountry model—one contract, one SLA, and one operational standard.
+            We are a cross-border operational platform engineered to transform debt resolution into a scalable, data-driven, and compliance-first asset class across Latin America.
           </p>
           <div className="flex flex-col md:flex-row gap-6">
-            <Link href="/technical-briefing">
+            <Link href="/technical">
               <button className="bg-primary-container text-on-primary-container px-10 py-5 font-headline font-bold uppercase tracking-tight text-sm active:scale-95 transition-all">
                 Optimize Operations
               </button>
@@ -76,26 +76,26 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="bg-surface-container-low p-10 hover:bg-surface-container-high transition-colors group">
             <span className="material-symbols-outlined text-primary-container text-4xl mb-8">
-              support_agent
+              payments
             </span>
             <h3 className="font-headline text-2xl font-bold mb-4 uppercase tracking-tight">
-              Customer Support
+              Financial Recovery
             </h3>
             <p className="font-body text-sm text-on-surface-variant leading-relaxed mb-8">
-              Voice, chat, and email support for technical, transactional, and general inquiries, all executed under strict SLA standards.
+              Transforming non-performing assets into structured revenue streams through behavioral science and data-driven engagement.
             </p>
             <div className="h-1 w-0 group-hover:w-full bg-primary-container transition-all duration-500"></div>
           </div>
           <div className="bg-surface-container-highest p-10 relative overflow-hidden group">
             <div className="relative z-10">
               <span className="material-symbols-outlined text-primary-container text-4xl mb-8">
-                trending_up
+                account_balance
               </span>
               <h3 className="font-headline text-2xl font-bold mb-4 uppercase tracking-tight">
-                Sales Operations
+                Credit Advisory & Restructuring
               </h3>
               <p className="font-body text-sm text-on-surface-variant leading-relaxed mb-8">
-                Multilingual customer acquisition and lead qualification designed to scale your revenue across the Americas.
+                Strategic consulting and lifecycle management for complex, high-value debt portfolios requiring institutional-grade execution.
               </p>
             </div>
             <div className="absolute bottom-0 right-0 p-4 opacity-10">
@@ -103,20 +103,20 @@ export default function Home() {
                 className="material-symbols-outlined text-[120px]"
                 style={{ fontVariationSettings: "'FILL' 1" }}
               >
-                hub
+                handshake
               </span>
             </div>
             <div className="h-1 w-0 group-hover:w-full bg-primary-container absolute bottom-0 left-0 transition-all duration-500"></div>
           </div>
           <div className="bg-surface-container-low p-10 hover:bg-surface-container-high transition-colors group">
             <span className="material-symbols-outlined text-primary-container text-4xl mb-8">
-              account_tree
+              admin_panel_settings
             </span>
             <h3 className="font-headline text-2xl font-bold mb-4 uppercase tracking-tight">
-              Back-Office Support
+              Sovereign BPO Framework
             </h3>
             <p className="font-body text-sm text-on-surface-variant leading-relaxed mb-8">
-              Order processing, data management, and operational reporting for scaling businesses requiring high-precision execution.
+              A hybrid operations model that shifts from "outsourced labor" to "operational intelligence" under the Compliance Shield.
             </p>
             <div className="h-1 w-1/3 bg-primary-container/20 group-hover:w-full transition-all duration-500"></div>
           </div>

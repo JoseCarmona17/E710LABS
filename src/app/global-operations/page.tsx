@@ -13,117 +13,129 @@ export default function GlobalOperations() {
         </div>
         <div className="relative z-10 max-w-5xl">
           <p className="font-label text-primary-container font-bold uppercase tracking-[0.4em] mb-4 text-xs">
-            Strategic Logistics Command
+            Nearshoring 2.0 Command
           </p>
           <h1 className="font-headline tracking-tighter text-4xl md:text-6xl lg:text-7xl lg:text-9xl font-extrabold text-on-surface mb-8 leading-[0.85]">
-            GLOBAL
+            JURISDICTIONAL
             <br />
-            INFRASTRUCTURE
+            FLEXIBILITY
           </h1>
           <p className="font-body text-xl text-tertiary max-w-2xl leading-relaxed border-l-2 border-primary-container pl-8 py-2">
-            Eliminating geographic risk through a unified multicountry model. We combine physical centers in the US, Canada, and Latin America with a proprietary distributed workforce for seamless scalability.
+            Eliminating operational friction through centralized governance and regional infrastructure dominance. We leverage localized hubs optimized for high-performance talent and regulatory alignment.
           </p>
         </div>
         <div className="absolute right-12 bottom-12 hidden lg:block">
           <div className="border-l-2 border-primary-container bg-surface-container-highest/80 backdrop-blur-md p-8 w-72 border-r border-y border-white/10 shadow-[0_0_20px_rgba(230,0,0,0.2)]">
             <span className="font-label text-[10px] uppercase tracking-widest text-primary-container font-black">
-              System Status
+              Governance Status
             </span>
             <div className="text-3xl md:text-5xl font-headline font-black text-on-surface mt-2 tracking-tighter italic">
-              ACTIVE
+              CENTRALIZED
             </div>
             <div className="flex items-center gap-2 mt-4">
               <div className="w-2 h-2 rounded-full bg-primary-container animate-pulse shadow-[0_0_8px_#e60000]"></div>
               <span className="text-[10px] font-label uppercase tracking-tighter text-white/60">
-                Real-time Node Sync [GLOBAL_MESH]
+                Multi-Node Audit [LIVE]
               </span>
             </div>
           </div>
         </div>
       </section>
 
-      {/* The Hybrid Model / Grid Section */}
+      {/* Hybrid Model Framework Section */}
       <section className="py-16 md:py-24 px-6 md:px-12 bg-surface-dim">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-px bg-white/5 border border-white/5">
           <div className="md:col-span-8 bg-surface-container-low p-6 md:p-12 lg:p-10 md:p-20">
-            <h2 className="font-headline text-3xl md:text-5xl font-black mb-16 tracking-tighter uppercase">
-              How We Work: The One-SLA Framework
+            <h2 className="font-headline text-3xl md:text-5xl font-black mb-16 tracking-tighter uppercase leading-none">
+              The One-SLA <br/> <span className="text-primary-container">Framework.</span>
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-12">
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
-                  <span className="text-xs font-black text-primary-container bg-primary-container/10 px-2 py-1">
-                    STEP_01
-                  </span>
-                  <h3 className="text-on-surface font-headline font-bold text-xl uppercase tracking-tight">
-                    Operational Assessment
-                  </h3>
+                  <span className="text-xs font-black text-primary-container bg-primary-container/10 px-2 py-1">STEP_01</span>
+                  <h3 className="text-on-surface font-headline font-bold text-xl uppercase tracking-tight">Assessment</h3>
                 </div>
-                <p className="font-body text-sm text-tertiary leading-relaxed">
-                  We evaluate your markets, service volumes, customer profiles, and language requirements to design a tailored operational roadmap.
-                </p>
+                <p className="font-body text-sm text-tertiary leading-relaxed opacity-70">Strategic evaluation of markets, volumes, and linguistic requirements for institutional alignment.</p>
               </div>
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
-                  <span className="text-xs font-black text-primary-container bg-primary-container/10 px-2 py-1">
-                    STEP_02
-                  </span>
-                  <h3 className="text-on-surface font-headline font-bold text-xl uppercase tracking-tight">
-                    Team Design & Deployment
-                  </h3>
+                  <span className="text-xs font-black text-primary-container bg-primary-container/10 px-2 py-1">STEP_02</span>
+                  <h3 className="text-on-surface font-headline font-bold text-xl uppercase tracking-tight">Deployment</h3>
                 </div>
-                <p className="font-body text-sm text-tertiary leading-relaxed">
-                  We deploy the appropriate mix of physical-center and distributed teams aligned to your specific regional and linguistic needs.
-                </p>
+                <p className="font-body text-sm text-tertiary leading-relaxed opacity-70">Direct mobilization of high-performance teams across physical and distributed hubs.</p>
               </div>
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
-                  <span className="text-xs font-black text-primary-container bg-primary-container/10 px-2 py-1">
-                    STEP_03
-                  </span>
-                  <h3 className="text-on-surface font-headline font-bold text-xl uppercase tracking-tight">
-                    Unified Execution
-                  </h3>
+                  <span className="text-xs font-black text-primary-container bg-primary-container/10 px-2 py-1">STEP_03</span>
+                  <h3 className="text-on-surface font-headline font-bold text-xl uppercase tracking-tight">Governance</h3>
                 </div>
-                <p className="font-body text-sm text-tertiary leading-relaxed">
-                  All operations are managed under a single SLA, QA framework, and reporting system, ensuring consistency across every country.
-                </p>
+                <p className="font-body text-sm text-tertiary leading-relaxed opacity-70">Unified management under the Compliance Shield, ensuring 100% auditability and performance yield.</p>
               </div>
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
-                  <span className="text-xs font-black text-primary-container bg-primary-container/10 px-2 py-1">
-                    STEP_04
-                  </span>
-                  <h3 className="text-on-surface font-headline font-bold text-xl uppercase tracking-tight">
-                    Continuous Scaling
-                  </h3>
+                  <span className="text-xs font-black text-primary-container bg-primary-container/10 px-2 py-1">STEP_04</span>
+                  <h3 className="text-on-surface font-headline font-bold text-xl uppercase tracking-tight">Optimization</h3>
                 </div>
-                <p className="font-body text-sm text-tertiary leading-relaxed">
-                  Add languages, regions, or volume without changing vendors or disrupting operations. Our model is built for frictionless growth.
-                </p>
+                <p className="font-body text-sm text-tertiary leading-relaxed opacity-70">Continuous scaling of regions and languages without operational friction or vendor fragmentation.</p>
               </div>
             </div>
           </div>
-          <div className="md:col-span-4 bg-primary-container p-6 md:p-12 lg:p-10 md:p-20 flex flex-col justify-between group cursor-crosshair">
+          <div className="md:col-span-4 bg-primary-container p-6 md:p-12 flex flex-col justify-between group overflow-hidden">
             <div>
-              <h2 className="font-headline text-3xl md:text-5xl font-black text-on-primary-container leading-[0.9] uppercase tracking-tighter">
-                VIRTUAL
+              <h2 className="font-headline text-3xl md:text-5xl font-black text-on-primary-container leading-[0.9] uppercase tracking-tighter italic">
+                ALPHA
                 <br />
-                NETWORK
+                NODE
               </h2>
               <p className="text-on-primary-container/90 mt-8 font-body text-lg leading-snug">
-                Decentralized elastic workforce. 100% encrypted edge nodes
-                ensuring zero-point failure across 48 timezones. Total
-                scalability on demand.
+                Elastic workforce architecture. 100% encrypted execution ensures zero regulatory exposure across all timezones.
               </p>
             </div>
-            <div className="flex items-end justify-between">
-              <span className="material-symbols-outlined text-3xl md:text-5xl md:text-8xl text-on-primary-container/20 group-hover:text-on-primary-container/40 transition-colors duration-500">
-                hub
-              </span>
-              <span className="font-label text-[10px] uppercase tracking-widest text-on-primary-container font-black transform rotate-90 origin-bottom-right translate-y-[-20px]">
-                EDGE_SECURED
-              </span>
+            <div className="flex items-end justify-between mt-12">
+              <span className="material-symbols-outlined text-7xl text-on-primary-container/20">hub</span>
+              <span className="font-label text-[10px] uppercase tracking-widest text-on-primary-container font-black transform rotate-90 origin-bottom-right">SECURED_2030</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Multilingual Capacities (Migrated from Multilingual) */}
+      <section className="px-6 md:px-12 lg:px-24 py-20 md:py-32 bg-surface-container-lowest border-y border-white/5">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col lg:flex-row justify-between items-start gap-16">
+            <div className="max-w-2xl">
+              <span className="font-label text-primary-container text-[10px] tracking-[0.4em] uppercase font-bold mb-6 block">Cross-Border Fluency</span>
+              <h2 className="font-headline text-4xl md:text-6xl font-black uppercase tracking-tighter leading-none mb-8">
+                Four Languages. <br/> <span className="text-primary-container">Native Proficiency.</span>
+              </h2>
+              <p className="text-on-surface-variant text-lg leading-relaxed font-light mb-12">
+                We eliminate linguistic friction for the global elite. Our operations bridge markets through cultural fluency and technical excellence in **English**, **Spanish**, **French**, and **Portuguese**.
+              </p>
+              <div className="grid grid-cols-2 gap-4">
+                {['English', 'Spanish', 'French', 'Portuguese'].map((lang) => (
+                  <div key={lang} className="bg-surface-container-highest p-4 border-l border-primary-container">
+                    <span className="font-headline font-bold uppercase tracking-widest text-xs">{lang} MASTERED</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="w-full lg:w-1/3 bg-surface-container p-12 relative overflow-hidden">
+                <span className="material-symbols-outlined absolute -right-4 -bottom-4 text-[150px] text-white/5">language</span>
+                <h4 className="font-headline text-xl font-bold uppercase mb-8">Vertical Specialization</h4>
+                <ul className="space-y-6">
+                  <li className="flex items-center gap-4">
+                    <span className="w-2 h-2 bg-primary-container rounded-full"></span>
+                    <span className="font-label text-xs uppercase tracking-widest font-bold">Fintech & Banking</span>
+                  </li>
+                  <li className="flex items-center gap-4">
+                    <span className="w-2 h-2 bg-primary-container rounded-full"></span>
+                    <span className="font-label text-xs uppercase tracking-widest font-bold">Distressed Assets</span>
+                  </li>
+                  <li className="flex items-center gap-4">
+                    <span className="w-2 h-2 bg-primary-container rounded-full"></span>
+                    <span className="font-label text-xs uppercase tracking-widest font-bold">Institutional SaaS</span>
+                  </li>
+                </ul>
             </div>
           </div>
         </div>

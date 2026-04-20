@@ -19,49 +19,39 @@ export default function AboutUs() {
 
         <div className="relative z-10 max-w-7xl mx-auto">
           <div className="inline-block bg-primary-container text-on-primary-container px-3 py-1 font-label text-[10px] tracking-[0.2em] uppercase mb-6">
-            Inside The Vanguard
+            Institutional Manifesto
           </div>
           <h1 className="font-headline font-extrabold text-4xl md:text-6xl lg:text-8xl leading-[0.9] tracking-tighter mb-8 uppercase italic">
-            Direct Control. <span className="text-primary-container block not-italic">Unified Performance.</span>
+            Monetizing <span className="text-primary-container block not-italic">Market Inefficiency.</span>
           </h1>
-          <p className="font-body text-xl text-on-surface-variant max-w-3xl leading-relaxed font-light mb-10">
-            E710Labs is a multicountry BPO specialized in customer operations, sales operations, and back-office execution for companies operating across the Americas. Our hybrid operating model combines physical delivery centers and a proprietary distributed workforce, eliminating geographic dependency while maintaining strict quality, compliance, and performance standards.
+          <p className="font-body text-xl text-on-surface-variant max-w-4xl leading-relaxed font-light mb-10">
+            E710Labs is a cross-border operational platform engineered to transform debt resolution into a scalable, data-driven, and compliance-first asset class. We exist to arbitrage the structural fragmentation of the LatAm financial recovery sector through a high-tech, institutionalized Hybrid-Remote model.
           </p>
         </div>
       </section>
 
-      {/* Culture & Philosophy Section */}
+      {/* Strategic Vision Section */}
       <section className="px-6 md:px-12 lg:px-24 py-20 md:py-32 bg-surface-dim">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
             <div>
               <div className="inline-block border border-primary-container text-primary-container px-3 py-1 font-label text-[10px] tracking-[0.2em] uppercase mb-6">
-                Operational Philosophy
+                Vision 2030: Nearshoring 2.0
               </div>
               <h2 className="font-headline font-extrabold text-4xl md:text-5xl uppercase tracking-tighter mb-8 italic">
-                Performance <span className="text-primary-container">Not Improvisation.</span>
+                From Execution Layer <span className="text-primary-container">to Strategic Asset.</span>
               </h2>
               <p className="font-body text-lg text-on-surface-variant leading-relaxed mb-6">
-                Our culture is built on structure, accountability, and performance. E710Labs prioritizes professional execution, measurable outcomes, and disciplined operations.
+                The global reconfiguration of service delivery has catalyzed Nearshoring 2.0. We are positioned as the backbone of this transformation within the financial services vertical.
               </p>
               <p className="font-body text-lg text-on-surface-variant leading-relaxed mb-8">
-                Teams are trained to operate under standardized procedures while adapting to the cultural and linguistic context of each market. We believe operational excellence is achieved through process clarity, talent accountability, and continuous improvement.
+                By 2030, our trajectory involves regional infrastructure dominance and the deployment of a full-stack platform encompassing credit advisory, restructuring, and lifecycle management of distressed assets.
               </p>
-              <div className="grid grid-cols-2 gap-8">
-                <div>
-                  <h4 className="font-headline font-bold uppercase text-primary-container mb-2 text-sm tracking-widest">Structure</h4>
-                  <p className="text-sm text-on-surface-variant opacity-70">Standardized procedures for global consistency.</p>
-                </div>
-                <div>
-                  <h4 className="font-headline font-bold uppercase text-primary-container mb-2 text-sm tracking-widest">Accountability</h4>
-                  <p className="text-sm text-on-surface-variant opacity-70">Measurable outcomes and talent discipline.</p>
-                </div>
-              </div>
             </div>
-            <div className="relative aspect-video bg-surface-container overflow-hidden border border-white/5">
+            <div className="relative aspect-video bg-surface-container overflow-hidden border border-white/5 shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2670&auto=format&fit=crop" 
-                alt="Architecture" 
+                src="https://images.unsplash.com/photo-1554469384-e58fac16e23a?q=80&w=2574&auto=format&fit=crop" 
+                alt="Institutional Architecture" 
                 className="w-full h-full object-cover grayscale opacity-50"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-surface-dim to-transparent"></div>
@@ -70,15 +60,65 @@ export default function AboutUs() {
         </div>
       </section>
 
-      {/* Leadership Team Section */}
-      <section className="px-6 md:px-12 lg:px-24 py-20 md:py-32 bg-surface-container-low border-t border-white/5">
+      {/* Operational Pillars (Migrated from Culture) */}
+      <section className="px-6 md:px-12 lg:px-24 py-20 md:py-32 bg-surface-container-lowest border-y border-white/5">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="font-headline font-black text-4xl md:text-6xl uppercase tracking-tighter mb-20">
+            Design for <span className="text-primary-container">Excellence.</span>
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+             <div className="border-l border-primary-container/30 pl-8">
+                <span className="font-headline font-black text-6xl text-white/5 italic block mb-6">01</span>
+                <h3 className="font-headline text-2xl font-bold uppercase tracking-tight mb-4">Process Clarity</h3>
+                <p className="text-on-surface-variant text-sm leading-relaxed">Standardized procedures designed for absolute consistency. Clarity in execution is our foundation.</p>
+             </div>
+             <div className="border-l border-primary-container/30 pl-8">
+                <span className="font-headline font-black text-6xl text-white/5 italic block mb-6">02</span>
+                <h3 className="font-headline text-2xl font-bold uppercase tracking-tight mb-4">Measurable Yield</h3>
+                <p className="text-on-surface-variant text-sm leading-relaxed">Performance is not subjective. We prioritize disciplined operations where every metric is audited.</p>
+             </div>
+             <div className="border-l border-primary-container/30 pl-8">
+                <span className="font-headline font-black text-6xl text-white/5 italic block mb-6">03</span>
+                <h3 className="font-headline text-2xl font-bold uppercase tracking-tight mb-4">Sovereign Standards</h3>
+                <p className="text-on-surface-variant text-sm leading-relaxed">Zero-tolerance for error. We communicate authority and precision in every institutional interaction.</p>
+             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Command Center Statistics (Migrated from Culture) */}
+      <section className="py-20 md:py-32 px-6 md:px-12 lg:px-24 bg-surface-dim">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="text-center md:text-left">
+              <div className="font-headline font-black text-5xl md:text-7xl text-primary-container mb-2">24/7</div>
+              <div className="font-label text-[10px] uppercase tracking-[0.3em] text-on-surface-variant">Institutional Oversight</div>
+            </div>
+            <div className="text-center md:text-left">
+              <div className="font-headline font-black text-5xl md:text-7xl text-primary-container mb-2">0%</div>
+              <div className="font-label text-[10px] uppercase tracking-[0.3em] text-on-surface-variant">Error Tolerance</div>
+            </div>
+            <div className="text-center md:text-left">
+              <div className="font-headline font-black text-5xl md:text-7xl text-primary-container mb-2">SOC2</div>
+              <div className="font-label text-[10px] uppercase tracking-[0.3em] text-on-surface-variant">Compliance Native</div>
+            </div>
+            <div className="text-center md:text-left">
+              <div className="font-headline font-black text-5xl md:text-7xl text-primary-container mb-2">14d</div>
+              <div className="font-label text-[10px] uppercase tracking-[0.3em] text-on-surface-variant">Rapid Deployment</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* The Core Founders Section */}
+      <section className="px-6 md:px-12 lg:px-24 py-20 md:py-32 bg-surface-container-low">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center gap-4 mb-16">
             <span className="material-symbols-outlined text-primary-container text-4xl">
-              military_tech
+              verified_user
             </span>
             <h2 className="font-headline font-extrabold text-4xl md:text-5xl uppercase tracking-tighter">
-              Leadership Team
+              Institutional Leadership
             </h2>
           </div>
 
@@ -86,7 +126,6 @@ export default function AboutUs() {
             {leaders.map((leader, index) => (
               <div key={index} className="bg-surface-container flex flex-col group overflow-hidden border border-white/5 hover:border-primary-container/50 transition-colors duration-300">
                 <div className="relative aspect-[3/4] w-full overflow-hidden bg-surface-container-highest flex items-center justify-center">
-                  {/* Background overlay when image is broken or loading */}
                   <span className="material-symbols-outlined absolute text-white/10 text-6xl">
                     person
                   </span>
@@ -102,7 +141,7 @@ export default function AboutUs() {
                   <h3 className="font-headline font-black text-2xl md:text-3xl uppercase tracking-tight text-white mb-2">
                     {leader.name}
                   </h3>
-                  <p className="font-label text-xs uppercase tracking-widest text-[#E60000] font-bold">
+                  <p className="font-label text-xs uppercase tracking-widest text-primary-container font-bold">
                     {leader.title}
                   </p>
                 </div>
