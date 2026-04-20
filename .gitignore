@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# AI and scratch scripts
+.gemini/
+/responsive_update.py
+/old_export_backup/
+
+# Temp HTML exports
+/*.html
