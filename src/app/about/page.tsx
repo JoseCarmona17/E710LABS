@@ -6,7 +6,8 @@ export default function AboutUs() {
     { name: "Max Miller", title: "COO", image: "/max.png" },
     { name: "Mark Vincent", title: "Partnership Director", image: "/mark.png" },
     { name: "Gina Parker", title: "Chief of Staff", image: "/gina.png" },
-    { name: "Leonardo G.", title: "Human Capital Regional Manager", image: "/leonardo.png" },
+    { name: "Leonardo Gazzaneo", title: "Human Capital Regional Manager", image: "/leonardo.png" },
+    { name: "Beatriz Sandi", title: "Operations manager", image: "/beatriz.png" },
   ];
 
   return (
@@ -49,9 +50,9 @@ export default function AboutUs() {
               </p>
             </div>
             <div className="relative aspect-video bg-surface-container overflow-hidden border border-white/5 shadow-2xl">
-              <img 
-                src="https://images.unsplash.com/photo-1554469384-e58fac16e23a?q=80&w=2574&auto=format&fit=crop" 
-                alt="Institutional Architecture" 
+              <img
+                src="https://images.unsplash.com/photo-1554469384-e58fac16e23a?q=80&w=2574&auto=format&fit=crop"
+                alt="Institutional Architecture"
                 className="w-full h-full object-cover grayscale opacity-50"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-surface-dim to-transparent"></div>
@@ -67,21 +68,21 @@ export default function AboutUs() {
             Design for <span className="text-primary-container">Excellence.</span>
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-             <div className="border-l border-primary-container/30 pl-8">
-                <span className="font-headline font-black text-6xl text-white/5 italic block mb-6">01</span>
-                <h3 className="font-headline text-2xl font-bold uppercase tracking-tight mb-4">Process Clarity</h3>
-                <p className="text-on-surface-variant text-sm leading-relaxed">Standardized procedures designed for absolute consistency. Clarity in execution is our foundation.</p>
-             </div>
-             <div className="border-l border-primary-container/30 pl-8">
-                <span className="font-headline font-black text-6xl text-white/5 italic block mb-6">02</span>
-                <h3 className="font-headline text-2xl font-bold uppercase tracking-tight mb-4">Measurable Yield</h3>
-                <p className="text-on-surface-variant text-sm leading-relaxed">Performance is not subjective. We prioritize disciplined operations where every metric is audited.</p>
-             </div>
-             <div className="border-l border-primary-container/30 pl-8">
-                <span className="font-headline font-black text-6xl text-white/5 italic block mb-6">03</span>
-                <h3 className="font-headline text-2xl font-bold uppercase tracking-tight mb-4">Sovereign Standards</h3>
-                <p className="text-on-surface-variant text-sm leading-relaxed">Zero-tolerance for error. We communicate authority and precision in every institutional interaction.</p>
-             </div>
+            <div className="border-l border-primary-container/30 pl-8">
+              <span className="font-headline font-black text-6xl text-white/5 italic block mb-6">01</span>
+              <h3 className="font-headline text-2xl font-bold uppercase tracking-tight mb-4">Process Clarity</h3>
+              <p className="text-on-surface-variant text-sm leading-relaxed">Standardized procedures designed for absolute consistency. Clarity in execution is our foundation.</p>
+            </div>
+            <div className="border-l border-primary-container/30 pl-8">
+              <span className="font-headline font-black text-6xl text-white/5 italic block mb-6">02</span>
+              <h3 className="font-headline text-2xl font-bold uppercase tracking-tight mb-4">Measurable Yield</h3>
+              <p className="text-on-surface-variant text-sm leading-relaxed">Performance is not subjective. We prioritize disciplined operations where every metric is audited.</p>
+            </div>
+            <div className="border-l border-primary-container/30 pl-8">
+              <span className="font-headline font-black text-6xl text-white/5 italic block mb-6">03</span>
+              <h3 className="font-headline text-2xl font-bold uppercase tracking-tight mb-4">Sovereign Standards</h3>
+              <p className="text-on-surface-variant text-sm leading-relaxed">Zero-tolerance for error. We communicate authority and precision in every institutional interaction.</p>
+            </div>
           </div>
         </div>
       </section>
